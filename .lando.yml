@@ -1,0 +1,7 @@
+name: pf-leconte
+recipe: pantheon
+config:
+  framework: wordpress
+  site: pf-leconte
+  id: b6c1226d-5d5e-4509-b693-8b7a34b275d6
+  composer_version: '1.10.20'
