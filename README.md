@@ -9,9 +9,10 @@ Development workflow follows the below path:
 
 1. **Lando:** Start development by coding and testing on the local Lando environment.
 3. **GitHub branch with pull request:** Once the code is ready for review, then commit code to a branch and create a pull request to the master branch.
-4. **Github (Master branch):** After code is reviewed and ready for release, then pull request will be merged into master branch.
-5. **CircleCI:** When code is added to the master branch then CircleCI will build code using composer and deploy to [Pantheon dev site](https://dev-pf-leconte.pantheonsite.io/).
-6. **Pantheon:** The Pantheon dev site will reviewed and then Pantheon deploy controls will be used to push to test and live sites. 
+   - When a pull request is made, CircleCI will run tests and create a pantheon multi-dev site using the branch.  
+5. **Github (Master branch):** After code is reviewed and ready for release, then pull request will be merged into master branch.
+6. **CircleCI:** When code is added to the master branch then CircleCI will build code using composer and deploy to [Pantheon dev site](https://dev-pf-leconte.pantheonsite.io/).
+7. **Pantheon:** The Pantheon dev site will reviewed and then Pantheon deploy controls will be used to push to test and live sites. 
 
 
 ## Lando - Local Development
