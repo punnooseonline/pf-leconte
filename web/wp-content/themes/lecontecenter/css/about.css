@@ -1,0 +1,818 @@
+    .accordions {padding-left: 0px !important; padding-right: 0px !important;}
+	.pageWrapper {padding-bottom: 0px;}
+    section.hero.mobile {display: block;}
+	section.hero.desktop {display: none;}
+
+	blockquote {color: #8d7658;position: relative;font-size: 1rem;line-height: 1.8;text-align: justify;display:block;padding: 1.5rem 0 .5rem 1.5rem;margin-bottom: 0;border-left: .5rem solid #CCCCCC;}
+
+    .widget--content-view.no-title h2 { display:none; }
+
+    section.hero .heroPrimary h2 { top:10%; padding-left: 25px; }
+
+	section.pageContent {background: #fef8e5;}
+	section.pageContent .history {padding: 1rem 2rem;background: #708a62;}
+	section.pageContent .history .history {padding: 0;}
+    section.pageContent .history h2 {font-size: 2.4rem;padding-top: 1rem;padding-right: 5rem;}
+    section.pageContent .history .widgetBody p:first-of-type {/*padding-top: 7rem;*/}
+    section.pageContent .history p {color: #FFFFFF;font-size: 1.3rem;line-height: 1.5;padding-top: 3rem;}
+
+	section.pageContent p.completeForm--rfp {color: #8d7658;padding-bottom: 1rem;}
+	section.pageContent p.requiredItem {color: #8d7658;font-weight: bold;font-size: 1.4rem;padding-bottom: 0;}	
+
+	section.pageContent .design_content {background-color: #fef8e5;padding: 0;}
+	section.pageContent .design_content fieldset {border: none;background: #e7dcbc;/*margin-top: -3rem;*/ padding-left: 10px; padding-bottom: 10px;}
+    section.pageContent .design_content fieldset legend {
+        color: #8d7658;
+        font-size: 2rem;
+        font-weight: 700;
+        margin-left: -0.5rem;
+        padding-bottom: 1.5rem;
+        padding-top: 6.6rem;
+        width: 100%;
+        border-bottom: 1px solid #8d7658;
+    }
+    section.pageContent .design_content fieldset legend img.design_view_button {display: none;}
+
+    section.pageContent .design_content fieldset .form-item {
+        color: #8d7658;
+        font-size: 1.4rem;
+        margin-top: 0.5rem;
+        margin-left: 0;
+    }
+
+    section.pageContent .design_content fieldset .form-item label {display: block;padding-bottom: 1rem;}
+    section.pageContent .design_content fieldset .form-item input[type="text"] {padding: 0.5rem;}
+    section.pageContent .design_content fieldset.EventConventionInformation div:nth-of-type(1) {padding-bottom: 1rem;}
+    section.pageContent .design_content fieldset.EventConventionInformation div:nth-of-type(2) {padding-bottom: 1rem;}
+    section.pageContent .design_content fieldset.EventConventionInformation div:nth-of-type(3) { width:100%; margin-top:0;}
+    section.pageContent .design_content fieldset.EventConventionInformation div:nth-of-type(3) label { padding-bottom:0; }
+    section.pageContent .design_content fieldset.EventConventionInformation div:nth-of-type(3) ol { margin:0; padding:0; }
+    section.pageContent .design_content fieldset.EventConventionInformation div:nth-of-type(3) ol li { padding-top:.75rem; }
+    section.pageContent .design_content fieldset.EventConventionInformation div:nth-of-type(5) {padding-top: 0;}
+    section.pageContent .design_content fieldset.EventConventionInformation div:nth-of-type(6) {padding-top: 0;}
+    section.pageContent .design_content fieldset.EventConventionInformation div:nth-of-type(7) {padding-top: 0.5rem;}
+    section.pageContent .design_content fieldset.EventConventionInformation div:nth-of-type(7) label {padding-bottom: 1.5rem;}
+    section.pageContent .design_content fieldset.EventConventionInformation div:nth-of-type(8) {margin-top: -1.5rem;margin-right: 0.8rem;margin-bottom: 1.5rem;}
+
+    section.pageContent .design_content fieldset.EventConventionInformation + fieldset,
+    body.event-planners.guide section.pageContent .design_content fieldset:last-child {background: none;margin: 2rem 0;}
+    section.pageContent .design_content fieldset .form-item input#FirstName.design_textfield {width: 28.6rem;}
+    section.pageContent .design_content fieldset .form-item input#LastName.design_textfield {width: 28.5rem;}
+    section.pageContent .design_content fieldset .form-item input#Phone1.design_textfield {margin-right: 1rem;width: 7.5rem;}
+    section.pageContent .design_content fieldset .form-item input#Phone2.design_textfield {margin-right: 1rem;width: 7.5rem;}
+    section.pageContent .design_content fieldset .form-item input#Phone3.design_textfield {width: 11.5rem;}
+    section.pageContent .design_content fieldset .form-item input#Fax1.design_textfield {margin-right: 1rem;width: 7.5rem;}
+    section.pageContent .design_content fieldset .form-item input#Fax2.design_textfield {margin-right: 1rem;width: 7.5rem;}
+    section.pageContent .design_content fieldset .form-item input#Fax3.design_textfield {width: 11.5rem;}
+    section.pageContent .design_content fieldset .form-item input#Email.design_textfield {width: 28.5rem;margin-bottom: 1.5rem;}
+
+    section.pageContent .design_content fieldset .form-item input#OrganizationName.design_textfield {width: 28.5rem;}
+    section.pageContent .design_content fieldset .form-item input#EventName.design_textfield {width: 28.5rem;}
+    section.pageContent .design_content fieldset .form-item input#Address1.design_textfield {width: 28.5rem;}
+    section.pageContent .design_content fieldset .form-item input#Address2.design_textfield {width: 28.5rem;}
+    section.pageContent .design_content fieldset .form-item input#City.design_textfield {width: 12rem;}
+    section.pageContent .design_content fieldset .form-item input#State.design_textfield {width: 12rem;}
+    section.pageContent .design_content fieldset .form-item input#Zip.design_textfield {width: 12rem;}
+
+    body.event-planners.guide section.pageContent .design_content fieldset .form-item input[type="text"] { width:90%; }
+
+    section.pageContent .design_content fieldset .form-item select#EventType {color: #8d7658;width: 28.2rem;margin-bottom: 1.5rem;padding: 0.5rem;}
+
+    section.pageContent .design_content fieldset .form-item span.dateClass {background: #FFFFFF;padding: 0.5rem;}
+
+    section.pageContent .design_content fieldset .form-item ol.design_list_horizontal {border: none;margin-top: -1.5rem;}
+    section.pageContent .design_content fieldset .form-item ol li {display: inline-block;padding: 0 2rem 0 0;}
+    section.pageContent .design_content fieldset .form-item ol li label {display: inline-block;vertical-align: top;padding-left: 0.5rem;}
+
+    section.pageContent .design_content fieldset.checkboxes .form-item {padding-top:0; }
+    section.pageContent .design_content fieldset.checkboxes p { padding-left:0; padding-bottom:0; }
+
+    section.pageContent .widgetBody h2.floorPlanTitle {color: #8d7658;font-size: 2.3rem;top: 2rem;/*left: 1rem;*/}
+    section.pageContent .widgetBody h3.floorPlanSubtitle {padding-left: 1rem; font-family: 'Vollkorn', serif;font-weight: normal;font-size: 2.3rem;}
+
+    section.pageContent .widgetBody p.overview-map {margin-top: 6rem;padding: 2rem 1rem 2rem 1rem;}
+
+    section.pageContent .widgetBody h3 {color: #8d7658;font-size: 1.6rem;padding: 1rem 0 2rem 0; line-height: 22px;}
+
+    section.pageContent .widgetBody table {color: #8d7658;font-size: 1.4rem; /*margin: 0 2rem 2rem 1rem;*/}
+    section.pageContent .widgetBody table thead td {font-weight: 700;font-size: 1.4rem;padding-bottom: 1rem;}
+    section.pageContent .widgetBody table tbody tr {height: 2rem;}
+    section.pageContent .widgetBody table tbody tr.section-header td:nth-child(1) {font-weight: 700;}
+    section.pageContent .widgetBody table tbody td.section-subhead {padding-left: .5rem;}
+
+    section.pageContent .widgetBody table + input {margin-bottom: 1.5rem;margin-left: 2rem;}
+
+    section.pageContent .widgetBody table.contactUsForm {margin-bottom: 0rem;margin-left: 2rem;}
+    section.pageContent .widgetBody table.contactUsForm tbody tr {}
+    section.pageContent .widgetBody table.contactUsForm tbody td {display: block;text-align: left !important;}
+    section.pageContent .widgetBody table.contactUsForm tbody td input {margin-top: 0.7rem;margin-bottom: 0.7rem;}
+    section.pageContent .widgetBody table.contactUsForm tbody td textarea {width: 27.5rem;margin-top: 0.7rem;}
+
+    .footable>tbody>tr>td,
+    .footable>thead>tr>th { font-size: 1.5rem; height: 3rem; line-height: 2rem; }
+
+    section.pageContent .widgetBody .lbGalleryGroup {padding: 2rem;}
+    section.pageContent .widgetBody .lbGalleryGroup .lbGalleryImage {display:inline-block;margin: 1.5rem 0.5rem;}
+    section.pageContent .widgetBody .lbGalleryGroup .lbGalleryImage img {-webkit-box-shadow: 2px 2px 6px 1px rgba(0,0,0,0.3);box-shadow: 2px 2px 6px 1px rgba(0,0,0,0.3);width: 100%;}
+
+	section.pageContent .amenities {background-color: #fef8e5;}
+    section.pageContent .amenities h2 {color:#8d7658;position: relative;padding: 2rem;}
+    section.pageContent .amenities img {}
+
+	section.pageContent .amenityTypes {background-color: #fef8e5;padding: 2rem 0;}
+    section.pageContent .amenityTypes figure {padding-bottom: 2rem;}
+    section.pageContent .amenityTypes figure .amenityLogo {
+        background: url("../images/leconte-amenity-icon-gear.png") 0 0 no-repeat;
+        height: 55px;
+        width: 17%;
+        padding-bottom: 5rem;
+        float: left;
+    }
+    section.pageContent .amenityTypes figure.amenity--1event .amenityLogo { background-image: url("../images/leconte-amenity-icon-1event.png"); }
+    section.pageContent .amenityTypes figure.amenity--av .amenityLogo { background-image: url("../images/leconte-amenity-icon-av.png"); }
+    section.pageContent .amenityTypes figure.amenity--centralLocation .amenityLogo { background-image: url("../images/leconte-amenity-icon-centralLocation.png"); }
+    section.pageContent .amenityTypes figure.amenity--flexible .amenityLogo { background-image: url("../images/leconte-amenity-icon-flexible.png"); }
+    section.pageContent .amenityTypes figure.amenity--housing .amenityLogo { background-image: url("../images/leconte-amenity-icon-housing.png"); }
+    section.pageContent .amenityTypes figure.amenity--ownersOffice .amenityLogo { background-image: url("../images/leconte-amenity-icon-ownersOffice.png"); }
+    section.pageContent .amenityTypes figure.amenity--parking .amenityLogo { background-image: url("../images/leconte-amenity-icon-parking.png"); }
+    section.pageContent .amenityTypes figure.amenity--registration .amenityLogo { background-image: url("../images/leconte-amenity-icon-registration.png"); }
+    section.pageContent .amenityTypes figure.amenity--seating .amenityLogo { background-image: url("../images/leconte-amenity-icon-seating.png"); }
+    section.pageContent .amenityTypes figure.amenity--tram .amenityLogo { background-image: url("../images/leconte-amenity-icon-tram.png"); }
+    section.pageContent .amenityTypes figure.amenity--wifi .amenityLogo { background-image: url("../images/leconte-amenity-icon-wifi.png"); }
+
+    section.pageContent .amenityTypes figure .amenityService h2 {color: #8d7658;font-size: 1.5rem;font-weight: normal;padding-top: 0;padding-bottom: .5rem;padding-left: 6rem;text-shadow: none;}
+    section.pageContent .amenityTypes figure .amenityService p {color: #8d7658;font-family: 'Vollkorn', serif;font-weight: normal;font-size: 1.2rem;padding-left: 6rem;padding-bottom: .5rem;line-height: 1.3;}
+
+    section.pageContent .callForTour {background: #a6b53e;}
+    section.pageContent .callForTour p {color: #FFFFFF;font-size: 1.3rem;line-height: 1.5;padding: 1rem 4rem 1.1rem 4rem;text-align: center;}
+    section.pageContent .callForTour p a.mobileNum {color: #FFFFFF;text-decoration: underline;}
+    section.pageContent .callForTour p a.mailTo {color: #FFFFFF;}
+
+	section.pageContent .credentials {background-color: #fef8e5;}
+    section.pageContent .credentials h2 {color: #8d7658;position: relative;padding: 2rem;}
+
+	section.pageContent .certifications {background-color: #fef8e5;padding: 2rem 2rem 1rem 2rem;}
+    section.pageContent .certifications h2 {color: #8d7658;font-size: 1.5rem;position: relative;padding-bottom: 1rem;text-shadow:none;}
+    section.pageContent .certifications h3 {color: #8d7658;padding-bottom: 0.5rem;}
+    section.pageContent .certifications p {color: #8d7658;line-height: 1.2;padding-bottom: 2rem;border-bottom: 1px solid #8d7658;}
+
+	section.pageContent .locations {background-color: #fef8e5;}
+    section.pageContent .locations h2 {color: #8d7658;position: relative;padding: 2rem;}
+
+	section.pageContent .nearBy {background-color: #fef8e5;}
+    section.pageContent .nearBy h2 {color: #8d7658;position: relative;padding: 2rem;}
+
+	section.pageContent .attractions {background-color: #fef8e5;padding: 0 2rem 2rem 0;}
+    section.pageContent .attractions blockquote.attractions {border-color: #b71239;margin-bottom: 1rem;}
+    section.pageContent .attractions blockquote.restaurants {border-color: #bfd412;margin-bottom: 1rem;}
+    section.pageContent .attractions blockquote.hotels {border-color: #0472b7;}
+
+    section.pageContent blockquote h3 {color: #8d7658;font-size: 1.8rem;margin-top: -1.8rem;}
+    section.pageContent blockquote ul li {color: #8d7658;font-size: 1.3rem;}
+
+	.secondaryTile #map_canvas.leConteCenter {width:100% !important;height:200px !important;}
+	.secondaryTileCopy #categories {padding: 0;}
+	.secondaryTileCopy #categories li {margin-bottom: 1em;}
+    .secondaryTileCopy #categories li a {/*background-size: 15% !important;*/padding-bottom: 3.5rem;}
+	.secondaryTileCopy #categories li:last-child {margin-bottom: 0 !important;}
+
+    .page-template-about .amenityTypes.secondaryTile img{
+        margin-bottom: 0;
+    }
+
+	section.pageContent .team {background-color: #fef8e5;}
+    section.pageContent .team h2 {color: #8d7658;position: relative;padding: 2rem 0;}
+    section.pageContent .team .teamMember {background-color: #e7ddbc;margin-bottom: 1rem;}
+
+	section.pageContent .team .teamMember {
+		width: 100%;
+		float: left;
+		position: relative;
+		margin: 1rem 0;
+		min-height: 380px;
+	}
+
+	section.pageContent .team .teamMember figcaption.memberInfo {
+		padding-top: 2rem;
+		padding-right: 1rem;
+		padding-left: 2rem;
+	}
+	section.pageContent .team .teamMember figcaption.memberInfo p {
+		color: #8d7658;
+		font-size: 1.2rem;
+		line-height: 1.6;
+		padding: 0 0.5rem 0.5rem 0;
+	}
+
+	section.pageContent .team .teamMember .memberPic {
+		float: right;
+		padding-left: 2rem;
+		max-height: 170px;
+		overflow: hidden;
+		max-width: 150px;
+	}
+    
+    .connct-section{
+        padding: 25px 0!important;
+    }
+					
+	section.pageContent .team .teamMember figure .memberPhone {color: #8d7658;float: left;width: 90%;}
+	section.pageContent .team .teamMember figure .memberPhone span.phoneIcon {background: url("../images/leconte-team-icon-phone.png") no-repeat 0 0 / 15% transparent;float: left;padding: 0rem 0 0 0.5rem;}
+	section.pageContent .team .teamMember figure .memberPhone span.phoneIcon p {padding-left: 3rem;}
+    section.pageContent .team .teamMember figure .memberPhone span.phoneIcon p a.mobileNum {color: #8d7658;}
+	section.pageContent .team .teamMember figure .memberPhone span.phoneIcon p {padding-left: 3rem;}
+
+	section.pageContent .team .teamMember figure .memberEmail {color: #8d7658;float: left;width: 90%;padding-bottom: 0.5rem;}
+	section.pageContent .team .teamMember figure .memberEmail span.emailIcon {background: url("../images/leconte-team-icon-mail.png") no-repeat 0 0 / 15% transparent;float:left;padding: 0rem 0 0 0.5rem;}
+    section.pageContent .team .teamMember figure .memberEmail span.emailIcon p a.mobileNum {}
+	section.pageContent .team .teamMember figure .memberEmail span.emailIcon p {padding-left: 3rem;}
+    section.pageContent .team .teamMember figure .memberEmail span.emailIcon p a.mailTo {color: #8d7658;}
+
+.title-brown-text .content-title { color: #8d7658; position: relative; padding: 2rem;}
+
+.secondaryTileCopy { /*padding: 2rem 2rem 1rem 2rem;*/ background:#fef8e5;}
+body.contact-us .secondaryTileCopy { padding-top:0; }
+    .secondaryTileCopy h2 {color: #8d7658;font-size: 1.9rem;position: relative;padding-bottom: 1rem;text-shadow: none;}
+    .secondaryTileCopy h3 {color: #8d7658;font-size: 1.5rem;padding-bottom: 1.5rem;}
+    .secondaryTileCopy p,
+    fieldset p {color: #8d7658;line-height: 1.5;padding-bottom: 2rem;font-size: 1.3rem;}
+    .secondaryTileCopy .nopadding { padding-bottom: 0px; }
+
+.page-template-event-planners .secondaryTileCopy ul.seperator { border-bottom: 1px solid #8d7658; padding-bottom: 20px;}
+.page-template-event-planners .secondaryTileCopy ul.seperator li{
+    line-height: 1.4;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+.page-template-event-planners .secondaryTileCopy{
+    padding-left: 18px;
+    padding-right: 18px;
+
+}
+.page-template-event-attendees .secondaryTileCopy nav.seperator{
+    padding-left: 23px;
+}
+
+
+section.pageContent .certifications {background-color: #fef8e5;padding: 2rem 2rem 1rem 2rem;}
+    section.pageContent .certifications h2 {color: #8d7658;font-size: 1.5rem;position: relative;padding-bottom: 1rem;text-shadow:none;}
+    section.pageContent .certifications h3 {color: #8d7658;padding-bottom: 0.5rem;}
+    section.pageContent .certifications p {color: #8d7658;line-height: 1.2;padding-bottom: 2rem;border-bottom: 1px solid #8d7658;}
+
+.circle { display:inline-block; background:url("../images/sprite--map-dots.png") 0 0 no-repeat; width:14px; height:14px; margin-right:3px; }
+    .circle.red { background-position:0 0; }
+    .circle.purple { background-position:-14px 0; }
+    .circle.blue { background-position:-28px 0; }
+    .circle.orange { background-position:-42px 0; }
+    .circle.yellow { background-position:-56px 0; }
+
+section.pageContent .row .hero2 .secondaryTileCopy ul li {float: left;font-size: 1.4rem;width:99%;padding: 0 2rem 2rem; line-height:1.3;}
+section.pageContent .row .hero2 .secondaryTileCopy ul li:nth-child(odd) { clear:both; }
+
+body.faqs .widget--content-view .secondaryTileCopy ul { 
+    padding-left: 2rem;
+    padding-right: 2rem;
+    list-style: disc;
+    line-height: 1.5;
+    font-size: 1.3rem;
+}
+.widget--leconte-map { position:relative; }
+.widget--leconte-map a.directions-link {
+    margin: 0 0 2rem 2rem;
+    display: block;
+    width: 275px;
+}
+
+#ctl00_ctl00_Body_LeConte_Body_dz_leconte_body_uxDropZone > li {
+	list-style: none;
+}
+.registrationForm input[type="submit"], #loginContainer input[type="submit"] {
+	margin: 0 0 5px 0;
+}
+#loginContainer, .registerForm {
+	padding-top: 34px;
+}
+#loginContainer h1, .registerForm h1 {
+	margin: 0 0 11px 0;
+	text-align: center;
+}
+#eventsCreated .eventTile {
+	background: #c8be9f;
+}
+    .faqsList {
+        padding-bottom:2rem;
+        list-style: initial;
+        padding-left: 40px;
+        padding-right: 40px;
+        font-size: 1.3rem;
+        line-height: 1.4;
+    }
+
+
+
+@media screen and (min-width: 520px) {
+    .faqsList {
+        padding-bottom:2rem;
+        list-style: initial;
+        padding-left: 40px;
+        padding-right: 40px;
+        font-size: 1.3rem;
+        line-height: 1.4;
+    }
+
+    .signup { position: relative; left: 15px; }
+
+    .secondaryTileCopy h3 { font-size: 1.8rem;padding-left: 2rem;padding-right: 2rem;}
+
+	section.hero.mobile {display: block;}
+	section.hero.desktop {display: none;}
+	section.pageContent .credentials img.mobile {display: block;}
+	section.pageContent .credentials img.desktop {display: none;}
+
+	#connect .row .sectionSub p {font-size: 1.5rem;}
+
+	section#heroMain h2 {font-size: 3.6rem; padding-right: 18rem;}
+    section#heroMain img {width: 100%;}
+
+	section.pageContent {background: #fef8e5;}
+	section.pageContent .history {background: #708a62;}
+    section.pageContent .history p {padding-top:0;padding-bottom: 2rem;}
+
+	section.pageContent .amenityTypes figure {padding-bottom: 2rem;padding-left: 2rem;}
+	section.pageContent .amenityTypes figure .amenityLogo {width: 15%;}
+    section.pageContent .amenityTypes figure .amenityService h2 {font-size: 2rem;padding-left: 8rem;}
+    section.pageContent .amenityTypes figure .amenityService p {font-size: 1.4rem;padding-left: 8.5rem;}
+
+    section.pageContent .widgetBody h3.floorPlanSubtitle {padding-left: 2rem;}
+
+	section.pageContent .certifications h2 {font-size: 2.5rem;padding-bottom: 1.5rem;}
+	section.pageContent .certifications h3 {font-size: 1.8rem;}
+	section.pageContent .certifications p {font-size: 1.4rem;line-height: 1.4;}
+
+	section.pageContent .locations h2 {font-size: 3rem;}
+
+	section.pageContent .nearBy h2 {font-size: 3rem;}
+    section.pageContent blockquote h3 {font-size: 2.5rem;}
+    section.pageContent blockquote ul li {font-size: 1.8rem;}
+
+    section.pageContent .attractions blockquote.attractions {border-color: #b71239;margin-bottom: 2rem;}
+    section.pageContent .attractions blockquote.restaurants {border-color: #bfd412;margin-bottom: 2rem;}
+    section.pageContent .attractions blockquote.hotels {border-color: #0472b7;}
+
+	.secondaryTileCopy #categories {padding: 0;width: 100%;}
+	.secondaryTileCopy #categories li { margin-bottom: 1em; margin-right: 3rem; /*display: inline-block;*/ background: none; }
+    .secondaryTileCopy.maplinks { margin-bottom: 1em; margin-right: 3rem; background: none; }
+
+	section.pageContent .team h2 {font-size: 3rem;}
+
+	section.pageContent .team .teamMember {
+		width: 100%;
+		float: left;
+		position: relative;
+		margin: 1rem 0;
+		min-height: 630px;
+	}
+		section.pageContent .team .teamMember figcaption.memberInfo p {padding-right: 0;}
+
+	section.pageContent .team .teamMember .memberPic {
+		float: right;
+		padding-left: 2rem;
+		max-height: 350px;
+		overflow: hidden;
+	}
+
+	section.pageContent .team .teamMember figcaption.memberInfo {
+		padding-top: 2rem;
+		padding-right: 0;
+		padding-left: 2rem;
+	}
+
+	section.pageContent .team .teamMember figcaption.memberInfo h2 {font-size: 2.5rem;}
+	section.pageContent .team .teamMember figcaption.memberInfo h3 {font-size: 1.5rem;padding-left: 0;}
+	section.pageContent .team .teamMember figcaption.memberInfo p {font-size: 1.4rem;line-height: 1.7;padding-right: 0;padding-bottom: 1.5rem;}
+
+	section.pageContent .team .teamMember figure .memberPhone {width: 80%;padding-bottom: 0;}
+	section.pageContent .team .teamMember figure .memberEmail {width: 80%;padding-bottom: 0;}
+
+	section.pageContent .team .teamMember figure .memberPhone span.phoneIcon {background-position: 0.4rem 0.4rem;background-size:12%;padding: 0 0.5rem;}
+    section.pageContent .team .teamMember figure .memberPhone span.phoneIcon p {font-size: 1.6rem;padding-left: 6rem;}
+
+	section.pageContent .team .teamMember figure .memberEmail span.emailIcon {padding: 0rem 0.5rem 0 0.5rem;}
+    section.pageContent .team .teamMember figure .memberEmail span.emailIcon p {font-size: 1.6rem;padding-left: 6rem;}
+
+	section.pageContent .row .hero2 .widgetBody {padding-top: 6rem;padding-bottom:0;}
+	section.pageContent .row .hero2 .widgetBody p {font-size: 2.6rem;text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);}
+	section.pageContent .row .hero2 .secondaryTileCopy ul li {font-size: 1.4rem;}
+
+    .footable>tbody>tr>td, 
+    .footable>thead>tr>th { font-size: 1.3rem; }
+
+    .widget--leconte-map a.directions-link {
+        margin:0;
+        display: inline;
+        width: auto;
+        position: absolute;
+        right: 4rem;
+        top: 2rem;
+        font-size: 1.5rem;
+        z-index: 10;
+    }
+}
+@media screen and (min-width: 740px) {
+    .faqsList {
+        padding-bottom:2rem;
+        list-style: initial;
+        padding-left: 40px;
+        padding-right: 40px;
+        font-size: 1.4rem;
+        line-height: 1.4;
+    }
+
+    .secondaryTileCopy h2 { font-size: 2.5rem;padding-bottom: 1.5rem;padding-left: 2rem;padding-right: 2rem;}
+    .secondaryTileCopy p,
+    fieldset p { font-size: 1.4rem;line-height: 1.4;padding-left: 2rem;padding-right: 2rem;}
+
+	.siteSearch p {padding-right: 9%;}
+	.siteSearch input {margin-left: 10rem;}
+
+	.title-brown-text .content-title {font-size: 3rem;}
+
+	section.hero.mobile {display: block;}
+	section.hero.desktop {display: none;}
+	section.hero .heroPrimary h2 {bottom:3rem; left:4rem; font-size:4rem; width:475px;}
+
+	section.pageContent .credentials img.mobile {display: block;}
+	section.pageContent .credentials img.desktop {display: none;}
+
+	#connect .row .sectionSub p {font-size: 1.5rem;}
+
+	section#heroMain h2 {font-size: 3.6rem;padding-right: 18rem;}
+    section#heroMain img {width: 100%;}
+
+	section.pageContent {top: 0.1rem;background: #fef8e5;}
+    section.pageContent .history {background: #708a62;}
+    section.pageContent .history h2 {font-size: 3.5rem;}
+
+	section.pageContent p.completeForm--rfp {color: #8d7658;padding-bottom: 1rem;}
+	section.pageContent p.requiredItem {color: #8d7658;font-weight: bold;font-size: 1.4rem;padding-bottom: 0;}	
+
+	section.pageContent .design_content {background-color: #fef8e5;padding: 0 2rem;}
+	section.pageContent .design_content fieldset {border: none;background: #e7dcbc;/*margin-top: -3rem;*/padding: 0 2rem 2rem 2rem;}
+    section.pageContent .design_content fieldset legend {
+        color: #8d7658;
+        font-size: 2rem;
+        font-weight: 700;
+        margin-left: -0.5rem;
+        padding-bottom: 1.5rem;
+        padding-top: 6.6rem;
+        width: 100%;
+        border-bottom: 1px solid #8d7658;
+    }
+    section.pageContent .design_content fieldset legend img.design_view_button {display: none;}
+
+    section.pageContent .design_content fieldset .form-item {
+        color: #8d7658;
+        font-size: 1.4rem;
+        display: inline-block;
+        padding-top: 2rem;
+        width: 49%;
+    }
+    
+    section.pageContent .design_content fieldset .form-item.small {width: 15%;}
+    section.pageContent .design_content fieldset div.form-item.small:nth-child(8) + .form-item {padding-left: 4.7rem;}
+    section.pageContent .design_content fieldset .form-item label {display: block;padding-bottom: 1rem;}
+    section.pageContent .design_content fieldset .form-item input[type="text"],
+    section.pageContent .design_content fieldset .form-item input[type="email"] {padding: 0.75rem;}
+    section.pageContent .design_content fieldset.EventConventionInformation div:nth-of-type(4),
+    section.pageContent .design_content fieldset.EventConventionInformation div:nth-of-type(5),
+    section.pageContent .design_content fieldset.EventConventionInformation div:nth-of-type(6) {padding-top: 0;}
+    section.pageContent .design_content fieldset.EventConventionInformation div:nth-of-type(7) label {padding-bottom: 1.5rem;}
+    section.pageContent .design_content fieldset.EventConventionInformation div:nth-of-type(8) {float: right;margin-top: -0.1rem;position: relative;margin-right: 0.8rem;}
+
+    section.pageContent .design_content fieldset.EventConventionInformation + fieldset {margin-top: 2rem;background: none;}
+    section.pageContent .design_content fieldset .form-item input#FirstName.design_textfield {width: 38.1rem;}
+    section.pageContent .design_content fieldset .form-item input#LastName.design_textfield {width: 38.1rem;}
+    section.pageContent .design_content fieldset .form-item input#Phone1.design_textfield {margin-right: 1rem;width: 12rem;}
+    section.pageContent .design_content fieldset .form-item input#Phone2.design_textfield {margin-right: 1rem;width: 12rem;}
+    section.pageContent .design_content fieldset .form-item input#Phone3.design_textfield {width: 11.8rem;}
+    section.pageContent .design_content fieldset .form-item input#Fax1.design_textfield {margin-right: 1rem;width: 12rem;}
+    section.pageContent .design_content fieldset .form-item input#Fax2.design_textfield {margin-right: 1rem;width: 12rem;}
+    section.pageContent .design_content fieldset .form-item input#Fax3.design_textfield {width: 12.1rem;}
+    section.pageContent .design_content fieldset .form-item input#Email.design_textfield {width: 37.8rem;}
+
+    section.pageContent .design_content fieldset .form-item input#OrganizationName.design_textfield {width: 37.8rem;}
+    section.pageContent .design_content fieldset .form-item input#EventName.design_textfield {width: 38.1rem;}
+    section.pageContent .design_content fieldset .form-item input#Address1.design_textfield {width: 37.8rem;}
+    section.pageContent .design_content fieldset .form-item input#Address2.design_textfield {width: 38.1rem;}
+    section.pageContent .design_content fieldset .form-item input#City.design_textfield {width: 12rem;}
+    section.pageContent .design_content fieldset .form-item input#State.design_textfield {width: 12rem;}
+    section.pageContent .design_content fieldset .form-item input#Zip.design_textfield {width: 12rem;}
+
+    section.pageContent .design_content fieldset .form-item select#EventType {color: #8d7658;padding: 0.5rem;width: 38.1rem;}
+
+    section.pageContent .design_content fieldset .form-item span.dateClass {background: #FFFFFF;padding: 0.5rem;}
+
+    section.pageContent .design_content fieldset .form-item ol.design_list_horizontal {border: none;margin-top: -1.5rem;}
+    section.pageContent .design_content fieldset .form-item ol li {display: inline-block;padding: 0 2rem 0 0;}
+    section.pageContent .design_content fieldset .form-item ol li label {display: inline-block;vertical-align: top;padding-left: 0.5rem;}
+
+    section.pageContent .widgetBody h2.floorPlanTitle {color: #8d7658;font-size: 3rem;padding-top: 1rem; padding-left: 30px;}
+    section.pageContent .widgetBody h3.floorPlanSubtitle {padding-left: 4rem;font-size: 3rem;}
+
+    section.pageContent .history .widgetBody h2 { color:#fff; }
+    section.pageContent .widgetBody p.overview-map {margin-top: 6rem;padding: 2rem 2rem 2rem 3rem;}
+    section.pageContent .widgetBody h3 {color: #8d7658;font-size: 1.6rem;padding: 0 2rem 1rem 2rem;}
+    section.pageContent .widgetBody table.footable {color: #8d7658;font-size: 1.2rem;padding: 0 3rem 2rem 3rem;}
+    section.pageContent .widgetBody table.footable thead tr {background:#8d7658; }
+    section.pageContent .widgetBody table.footable thead th {font-weight: 700;font-size: 1.4rem;padding:1rem;color: #fef8e5;vertical-align:bottom;}
+    section.pageContent .widgetBody table.footable tbody tr {height: 2rem;}
+    section.pageContent .widgetBody table.footable tbody tr:nth-child(even) { background:#e7dcbc; }
+    section.pageContent .widgetBody table.footable tbody tr.section-header td:nth-child(1) {font-weight: 700;}
+    section.pageContent .widgetBody table.footable tbody td { height: 3rem;line-height: 3rem;padding:0 1rem; }
+    section.pageContent .widgetBody table.footable tbody td.section-subhead {padding-left:3rem;}
+
+    .footable>tbody>tr>td,
+    .footable>thead>tr>th { font-size: 1.2rem; }
+
+    section.pageContent .widgetBody .lbGalleryGroup {padding:0 2rem;margin: 0;}
+    section.pageContent .widgetBody .lbGalleryGroup .lbGalleryImage {display: inline-block;margin: 1.5rem;}
+    section.pageContent .widgetBody .lbGalleryGroup .lbGalleryImage img {-webkit-box-shadow: 2px 2px 6px 1px rgba(0,0,0,0.3);box-shadow: 2px 2px 6px 1px rgba(0,0,0,0.3);}
+
+	section.pageContent .amenities h2 {font-size: 3rem;}
+	section.pageContent .amenities img {width: 100%;}
+
+	section.pageContent .amenityTypes figure {float: left;width: 49%;}
+    section.pageContent .amenityTypes figure:nth-child(odd) { clear:both; }
+	section.pageContent .amenityTypes figure .amenityLogo {width: 20%;}
+	section.pageContent .amenityTypes h2.content-title {padding: 0.5rem 2rem 2rem 2rem;}
+
+	section.pageContent .callForTour {padding: 3rem 2rem;}
+	section.pageContent .callForTour p {font-size: 2.5rem;line-height: 1.3;}
+
+	section.pageContent .credentials h2 {font-size: 3rem;}
+
+	section.pageContent .credentials img {width: 100%;}
+	section.pageContent .certifications h2 {font-size: 2.5rem;}
+
+	section.pageContent .locations img {width: 100%;}
+
+	section.pageContent .attractions {display: inline-block;width: 100%;padding: 2.5rem 0.5rem;vertical-align: top;}
+
+	section.pageContent .attractions blockquote {width: 33%;display: inline-block;}
+	section.pageContent .attractions blockquote.attractions,
+	section.pageContent .attractions blockquote.restaurants,
+	section.pageContent .attractions blockquote.hotels {padding: 0 2rem;vertical-align: top;min-height: 160px}
+    section.pageContent .attractions blockquote.attractions {border-color: #b71239;}
+    section.pageContent .attractions blockquote.restaurants {border-color: #bfd412;}
+    section.pageContent .attractions blockquote.hotels {border-color: #0472b7;}
+
+	section.pageContent .team .teamMember {
+		width: 47.8%;
+		float: left;
+		position: relative;
+		margin: 1rem 0.7rem;
+		min-height: 550px;
+	}
+	section.pageContent .team .teamMember figcaption.memberInfo p {padding-right: 1.1rem;}
+
+	section.pageContent .team .teamMember .memberPic {
+		float: right;
+		padding-left: 2rem;
+		max-height: 220px;
+		overflow: hidden;
+	}
+	section.pageContent .team .teamMember .memberPic img {max-height: 90%;}
+
+	section.pageContent .team .teamMember figcaption.memberInfo {
+		padding-top: 2rem;
+		padding-right: 0;
+		padding-left: 2rem;
+	}
+
+	section.pageContent .attractions  {width: 110%;}
+	section.pageContent blockquote ul li {font-size: 1.5rem;}
+
+	section.pageContent .divider {background-color: #fef8e5;}
+	section.pageContent .divider  {border-bottom: 1px solid #8d7658;width: 95%;margin: 0 2rem;}
+
+	section.pageContent .team .teamMember figure .memberPhone {width: 85%;}
+	section.pageContent .team .teamMember figure .memberEmail {width: 85%;}
+
+	section.pageContent .team .teamMember figure.member--one .memberPic,
+	section.pageContent .team .teamMember figure.member--two .memberPic,
+	section.pageContent .team .teamMember figure.member--three .memberPic,
+	section.pageContent .team .teamMember figure.member--four .memberPic {background-size:73%;margin-right: -6rem;padding-left: 0;}
+	section.pageContent .team .teamMember figcaption.memberInfo h2 {font-size: 2.7rem;padding-bottom: 1rem;}
+
+	section#connect {margin-top: 0.1rem;}
+
+    .widget--leconte-map .map-loading { position: relative; top: 0; left: 0; width: 100%; text-align: center; }
+	.widget--leconte-map #categories {padding: 0;width: 100%;}
+    .widget--leconte-map #categories li { width: 300px; background: #a6b53e url("../images/leconte-feature-btn.png") 0 0 no-repeat; background-size: 100%; margin-right: .5rem; }
+    .widget--leconte-map #categories li:last-child { margin-right:0; }
+    .widget--leconte-map #categories li a { padding: 1.5rem 0 2.9rem 91px; font-family: 'Vollkorn', serif; font-weight: normal; color: #FFFFFF; font-size: 2.3rem; }
+    .widget--leconte-map #categories li a.gmap-category { background-size: initial !important; background-position: 20px 7px; }
+
+	section.pageContent .row .hero2 .secondaryTileCopy ul li {width: 50%;}
+
+	section.pageContent .row .hero2 .widgetBody p {font-size: 3.6rem;}
+	section.pageContent .row .leadIn .widgetBody p {font-size: 1.7rem;padding: 4rem 0;border-bottom: 2px solid #5b6e3e;}
+
+    body.faqs .widget--content-view .secondaryTileCopy ul { 
+        padding-left: 4rem;
+        line-height: 1.4;
+        font-size: 1.4rem;
+    }
+
+    .form-item .Email input[type="email"]{
+        padding: 8px!important;
+    }
+
+    body.gallery section.pageContent .widgetBody h2.content-title { padding-bottom:0; }
+    body.gallery section.pageContent .widgetBody .secondaryTileCopy { padding-top:0; }
+	#ctl00_ctl00_Body_LeConte_Body_dz_leconte_body_uxColumnDisplay_ctl00_uxControlColumn_ctl00_uxWidgetHost_uxUpdatePanel {
+		overflow: hidden;
+		padding-bottom: 20px;
+	}
+	#loginContainer {
+		float: left;
+		padding-left: 21px;
+		width: 50%;
+	}
+	.registerForm {
+		float: right;
+		width: 50%;
+	}
+	.registrationForm {
+		font-size: 1.4rem;
+		padding-right: 45px;
+	}
+	#loginContainer table, #loginContainer td, .registrationForm table, .registrationForm td {
+		width: 100%;
+	}
+	#loginContainer .form-item-left, .registrationForm .form-item-left {
+		clear: both;
+		float: left;
+		margin: 0 3px 0 0;
+		text-align: right;
+		width: 30%;
+	}
+	#loginContainer .form-item-right, .registrationForm .form-item-right {
+		float: left;
+		width: 50%;
+	}
+}
+
+@media screen and (min-width: 960px) {
+    .faqsList {
+        padding-bottom:2rem;
+        list-style: initial;
+        padding-left: 40px;
+        padding-right: 40px;
+        font-size: 1.6rem;
+        line-height: 1.4;
+    }
+    .pageWrapper { padding-bottom: 20px; }
+	.siteSearch input {margin-left: 17.5rem;}
+
+    .secondaryTileCopy p,
+    fieldset p { font-size: 1.6rem;}
+
+	section.hero.mobile {display: none;}
+	section.hero.desktop {display: block;}
+	section.pageContent .credentials img.mobile {display: none;}
+	section.pageContent .credentials img.desktop {display: block;}
+
+	section.hero .heroPrimary {display: inline-block;}
+    section.hero .heroPrimary h2 {bottom:1rem; left:4rem; font-size:4rem;}
+    section.hero .heroPrimary img { width:100%; } /* Set width for image extending beyond bounds in IE11. */
+
+	section#heroMain h2 {font-size: 3.9rem; /*top: 11rem;*/width: 75%; padding-left: 40px;}
+	section.pageContent {background: #fef8e5;top: 0rem;}
+
+	section.aboutLC .moreInfo {padding-right:4rem;padding-left: 4rem;padding-bottom:1rem; padding-top:1rem;}
+	section.aboutLC .moreInfo p {font-size: 1.8rem;padding-top: 0.5rem;}
+
+	section.pageContent .history {background: #708a62;margin-left: 0rem;padding: 2rem 2rem;}
+	section.pageContent .history h2 {padding-left: 2rem;}
+	section.pageContent .history p {padding: 0 4rem 2.5rem 2rem;}
+	section.pageContent .history p:first-of-type {padding: 2rem 4rem 2rem 2rem;}
+	
+	section.pageContent .amenities, section.pageContent .amenityTypes {margin-left: 0%;}
+
+	section.pageContent .amenityTypes figure .amenityLogo {padding-bottom: 4rem;}
+
+	section.pageContent .col-lg-12.col-md-12.col-sm-12.col-xs-12 {/*margin-left: 10px; */}
+
+	section.pageContent .certifications {background: url("../images/LeConte-energystar-logo.gif") no-repeat 83.8rem 2rem transparent;}
+	section.pageContent .certifications p {font-size: 1.6rem;padding-right: 15rem;}
+
+	section.pageContent .attractions {width: 100%;padding-top: 0;}
+	section.pageContent .attractions blockquote {width: 33%;display: inline-block;}
+	section.pageContent .attractions blockquote.attractions,
+	section.pageContent .attractions blockquote.restaurants,
+    section.pageContent .attractions blockquote.hotels {padding: 0 2rem;vertical-align: top;min-height: 160px}
+    section.pageContent .attractions blockquote.attractions {border-color: #b71239;}
+    section.pageContent .attractions blockquote.restaurants {border-color: #bfd412;}
+    section.pageContent .attractions blockquote.hotels {border-color: #0472b7;}
+
+	section.pageContent .team .teamMember {
+		width: 47.8%;
+		float: left;
+		position: relative;
+		margin: 1rem;
+		min-height: 550px;
+	}
+	section.pageContent .team .teamMember .memberPic {
+		float: right;
+		padding-left: 2rem;
+		max-height: 270px;
+		overflow: hidden;
+	}
+
+	section.pageContent .team .teamMember figcaption.memberInfo {
+		padding-top: 2rem;
+		padding-right: 0;
+		padding-left: 2rem;
+	}
+
+	section.pageContent .team .teamMember figcaption.memberInfo p {padding-right: 1.1rem;}
+
+	section.pageContent .team .teamMember figure .memberPhone,
+	section.pageContent .team .teamMember figure .memberEmail {width:95%;}
+
+	section.pageContent .team .teamMember figure .memberPhone span.phoneIcon p,
+	section.pageContent .team .teamMember figure .memberEmail span.emailIcon p {padding-right: 6.5rem;padding-bottom: 1rem;}
+
+	.secondaryTile #map_canvas.leConteCenter {height:350px !important;}
+
+	section#connect {margin-top: 1.1rem;}
+
+    section.pageContent .row .hero2 .secondaryTile h2 { left:4rem; padding-left:0; }
+    section.pageContent .row .hero2 .secondaryTileCopy ul li { padding:0 4rem 2rem; }
+    .maplinks {display: inline-block;}
+    body.faqs .widget--content-view .secondaryTileCopy ul { font-size: 1.6rem; }
+}
+
+
+/*Embded*/
+
+@media screen and (max-width: 768px) {
+        section.container.hero.mobile {
+            display: none;
+        }
+        section.container.hero.desktop {
+            display: inline;
+        }
+        .widget--content-block h2 {
+            position: inherit;
+        }
+
+    }
+    
+    @media screen and (min-width: 768px) {
+        .container {
+            width: 100% !important;
+            padding: 0px !important;
+        }
+        .col-lg-12 .col-md-12 .col-sm-12 .col-xs-12 {
+            padding-left: 0px !important;
+            padding-right: 0px !important;
+        }
+        .callForTour{
+            margin-bottom: 25px;
+        }
+    }
+
+    
+    .accordions {
+        /*padding-left: inherit;
+                    padding-right: 0px; */
+    }
+    
+    .container {
+        padding-left: inherit;
+        padding-right: 0px;
+    }
+    
+    .row {
+        /**/
+    }
+    
+    .header_image {
+        padding-left: inherit;
+        padding-right: 0px;
+    }
+    
+    .widget--content-block h2 {
+        margin-top: inherit;
+    }
+    
+    .header_image_menu {
+        position: absolute;
+        top: -65px;
+        text-align: center;
+    }
+	

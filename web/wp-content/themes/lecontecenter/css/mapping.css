@@ -1,0 +1,211 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ********** shell ********** */
+
+#shell {
+	margin: 0 auto;
+	position: relative;
+	width: 992px;
+	padding-top:45px;
+}
+#introCopy {
+	padding: 5px 30px 15px 217px;
+	width: 720px;
+}
+#introCopy p { background-color: #fff; padding: 10px; }
+#introCopy a { text-decoration:underline; }
+#frameShell {
+	height: 730px;
+	float: right;
+	position: relative;
+	width: 815px;
+}
+#frame {
+	background: url(images/frame.html);
+	position: relative;
+	height: 730px;
+	width: 815px;
+	z-index: 1;
+}
+#sideNavigation {
+	left: -178px;
+	position: absolute;
+	top: 20px;
+	width: 203px;
+	z-index: 0;
+}
+#logo {
+	background: url(images/logo.html);
+	height: 119px;
+	position: absolute;
+	top: 0;
+	width: 186px;
+	z-index: 2;
+}
+#logo a { display: block; width: 100%; height: 100%; }
+#officialMap {
+	background: url(images/official_map.html);
+	height: 80px;
+	left: 153px;
+	position: absolute;
+	top: -10px;
+	width: 512px;
+}
+#coupons {
+    display:block;
+	bottom: -15px;
+	height: 80px;
+	left: 50px;
+	position: absolute;
+	width: 189px;
+}
+#bird {
+	background: url(images/bird2.html) no-repeat;
+	height: 98px;
+	left: 84px;
+	position: absolute;
+	top: 94px;
+	width: 103px;
+	z-index: 1;
+}
+#picture1 {
+	background: url(images/picture1.html);
+	bottom: -140px;
+	height: 171px;
+	position: absolute;
+	right: -10px;
+	width: 141px;
+	z-index: 2;
+}
+#picture2 {
+	background: url(images/picture2.html);
+	bottom: -30px;
+	height: 217px;
+	position: absolute;
+	right: -40px;
+	width: 179px;
+}
+#shadow {
+	background: url(images/shadow.html);
+	bottom: -40px;
+	height: 38px;
+	position: absolute;
+	right: 40px;
+	width: 730px;
+}
+
+
+
+/* ********** sideNavigation ********** */
+
+#categories {
+	font-size: 14px;
+	overflow: hidden;
+	padding: 68px 31px 24px 18px;
+	position: relative;
+	width: 154px;
+	z-index: 1;
+}
+#categories ul {
+	position: relative;
+	z-index: 1;
+    margin-bottom:0;
+}
+#categories a {
+	display: block;
+	margin: 0 0 3px 0;
+	padding: 9px 0 12px 33px;
+	height: 25px;
+}
+#categories a.activesub {
+	padding-bottom: 5px;
+}
+#categories li {
+	background: url(images/side_navigation_spacer.html) center bottom no-repeat;
+    margin-bottom: .3em;
+}
+#categories li:last-child {
+	background: none;
+}
+#categories li:last-child a {
+	padding-bottom: 0;
+}
+#categories li:last-child a.active {
+	padding-bottom: 5px;
+}
+#categories li a.gmap-category { background:left top no-repeat; cursor: pointer; }
+#categories li a.gmap-category.where-to-stay { background-image: url(../images/icon_where_to_stay.png); }
+#categories li a.gmap-category.what-to-do { background-image: url(../images/icon_what_to_do.png); }
+#categories li a.gmap-category.where-to-eat { background-image: url(../images/icon_where_to_eat.png); }
+#categories li a.gmap-category.shopping-tour { background-image: url(../images/icon_shopping_tour.html); }
+#categories li a.gmap-category.trolley-stops { background-image: url(../images/icon_trolley_stops.html); }
+#categories li a.gmap-category.theaters { background-image: url(../images/icon_theater.html); }
+#categories li a.gmap-category.parks { background-image: url(../images/icon_parks.html); }
+#categories li a.gmap-category.family-tour { background-image: url(../images/icon_family_tour.html); }
+#categories li a.gmap-category.panorama { background-image:url(../images/icon_360.html); }
+#categories li a.gmap-category.tours { background-image:url(../images/icon_tours.html); }
+#categories ul ul {
+	display: none;
+	font-size: 12px;
+	padding: 0 0 9px 0;
+    margin-left: 0;
+}
+#categories ul ul li {
+	padding: 0 0 1px 0;
+	background: none;
+}
+#categories ul ul li:last-child {
+	padding: 0;
+}
+#chooseACategory {
+	background: url(images/choose_a_category.html);
+	height: 53px;
+	left: -13px;
+	position: absolute;
+	top: 5px;
+	width: 205px;
+	z-index: 2;
+}
+#sideNavigationBackground {
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 0;
+}
+
+/* ********** map ********** */
+
+#map_canvas, .frame-360 {
+	height: 632px !important;
+	left: 41px;
+	position: absolute;
+	top: 48px;
+	width: 724px !important;
+	z-index: 0;
+}
+#map_canvas.leConteCenter {
+	position:relative;
+	width:600px !important;
+	height:400px !important;
+	top:0;
+	left:0;
+
+}
+a.launch360 { display:block; background:url(images/view-panorama-sm.html) no-repeat; text-indent: -1000px; height: 80px; }
+a.frame-360-close { position:absolute; top:0; right:20px; background:#fff; display:block; background:url(images/close-panorama.html) no-repeat; width: 68px; height: 91px; text-indent: -10000px; }
+.gmap-infoWindow {
+	height: 125px;
+	width: 400px;
+}
+.gmap-infobox > img { z-index:1; }
+.gmap-infobox-content { width: 290px; height: 140px; background: #fff; border: 2px solid black; padding:15px 20px; font-size:11px; line-height:1.5em; }
+.gmap-infobox-content h2 { position:relative; color:#174c83; font-size: 15px; margin-bottom: 5px; }
+.gmap-infobox-content img { float:right; width:75px; margin: 0 5px 5px 0; }
+.gmap-infobox-content a.more-info,
+.gmap-infobox-content a.coupon { font-size:13px; color:#174c83; }
+.gmap-infobox-content a.coupon { margin-left:10px; background:url(../../../images/business-listings/icon-coupon.html) no-repeat; padding:0 0 0 20px; }
+.gmap-marker-pointer { position:relative; margin-top: -3px; margin-left: 67px; width: 64px; height: 35px; background: url(../images/infobox-bg-vertical1e2f.png?v=20120705) no-repeat; }
+.map-loading { width:100px; height:16px; padding:8px; font-size:16px; position:absolute; top:36px; left:340px; z-index:999; }
