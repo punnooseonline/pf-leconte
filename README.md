@@ -27,3 +27,18 @@ First time lando run requires a couple of steps.
       3. Delete folder `web/wp/wp-content`
 3. Run `lando pull --code=none` to download the media files and database from Pantheon.
 4. Visit the [local site URL](https://usopm-2021.lndo.site/)
+
+## Themes and Plugins
+Contributed themes and plugins should be added to the composer.json using the following commands
+* for plugins `lando composer require wpackagist-plugin/[plugin-slug]`
+* for themes `lando composer require wpackagist-theme/[theme-slug]`
+
+Paid plugins or themes will need to be added to https://dev-o142-satispress.pantheonsite.io/ and then added to composer using
+* for plugins `lando composer require satispress/[plugin-slug]`
+* for themes `lando composer require satispress/[theme-slug]`
+
+To remove a plugin or theme use
+`lando composer remove [namespace]/[slug]`
+
+Custom themes and plugins should be added to the file structure and then the folder excluded from the gitignore.
+* gitignore example: `!web/wp-content/themes/lecontecenter`
