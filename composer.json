@@ -3,16 +3,20 @@
   "description": "",
   "type": "project",
   "keywords": [],
-  "repositories": [
-    {
+  "repositories": {
+    "0":{
       "type": "composer",
       "url": "https://wpackagist.org"
     },
-    {
+    "1":{
       "type": "vcs",
       "url": "https://github.com/pantheon-systems/wordpress-composer"
+    },
+    "satispress": {
+        "type": "composer",
+        "url": "https://dev-o142-satispress.pantheonsite.io/satispress/"
     }
-  ],
+  },
   "require": {
     "php": ">=7.2",
     "composer/installers": "^1.3.0",
