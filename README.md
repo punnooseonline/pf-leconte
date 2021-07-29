@@ -26,7 +26,13 @@ First time lando run requires a couple of steps.
       2. Delete file `web/wp/wp-config.php`
       3. Delete folder `web/wp/wp-content`
 3. Run `lando pull --code=none` to download the media files and database from Pantheon.
-4. Visit the [local site URL](https://usopm-2021.lndo.site/)
+4. Visit the [local site URL](https://pf-leconte.lndo.site/)
+
+If you find yourself needing to reset your local environment; run the following commands then re-run the above first time commands.
+1. Run `lando stop` to ensure lando site is not running
+2. Run `git clean -dxf` to clean git folder to remove all files not version controlled.
+3. Run `lando destroy` to remove the lando environment
+
 
 ## Themes and Plugins
 Contributed themes and plugins should be added to the composer.json using the following commands
