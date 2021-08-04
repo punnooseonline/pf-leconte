@@ -1,0 +1,353 @@
+/*INDEX PAGE STYLES START*/
+
+.logo {left: 0;}
+
+section.flexslider {margin:0;border: none;box-shadow: none;background: transparent;border-radius: 0;margin: 0;}
+section.flexslider .slides > li > .title {position: absolute;top: 4rem;}
+section.flexslider .slides > li > .title p {color: #FFFFFF;font-family: 'Vollkorn',serif;font-weight: normal;font-size: 2rem;text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);padding-left: 3rem;}
+section.flexslider .slides > li > .subtitle {position: absolute;top: 13rem;}
+section.flexslider .slides > li > .subtitle p {color: #FFFFFF;font-size: 1.2rem;text-transform: uppercase;text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);padding-left: 3rem;}
+
+section.flexslider .slideWrapper ol.flex-control-nav {display: none;}
+
+section.flexslider .slideWrapper ul.flex-direction-nav a.flex-prev:before {content: "";}
+section.flexslider .slideWrapper ul.flex-direction-nav .flex-prev {background: url("../images/leconte-btn-previous.jpg") no-repeat scroll 0 0 rgba(0, 0, 0, 0);background-size: 55%;left: 0;opacity:0.8;font-size: 0;/*top: 14.5rem;*/ top: 50%;}
+.flexslider:hover .flex-prev {opacity:1;left:0;/*top: 14.5rem;*/ top: 50%;}
+
+section.flexslider .slideWrapper ul.flex-direction-nav a.flex-next:before {content: "";}
+section.flexslider .slideWrapper ul.flex-direction-nav .flex-next {background: url("../images/leconte-btn-next.jpg") no-repeat scroll 0 0 rgba(0, 0, 0, 0);background-size: 55%;right: -1.8rem;opacity:0.8;font-size: 0;/*top: 14.5rem;*/ top: 50%;}
+section.flexslider:hover .flex-next {opacity:1;right:-1.8rem; /*top: 14.5rem;*/ top: 50%;}
+
+section.pageContent .row .hero2 .widgetBody {background: url("../images/leconte-hero-320.jpg") no-repeat 0 0 transparent;background-size: 100%;width: 100%;padding-top: 7rem;}
+section.pageContent .row .hero2 .widgetBody p {color: #FFFFFF;font-family: 'Vollkorn', serif;font-size: 1.6rem;text-align: center;}
+
+
+section.pageContent .row .hero2 .secondaryTile  h2 {top: 2rem; padding-left:2rem;}
+section.pageContent .row .hero2 .secondaryTileCopy ul li {float: left;color: #FFF;font-size: 1.4rem;width:99%;padding: 0 2rem 2rem; line-height:1.3;}
+section.pageContent .row .hero2 .secondaryTileCopy ul li:nth-child(odd) { clear:both; }
+
+section.pageContent .row .leadIn .widgetBody {padding: 0 2rem;}
+section.pageContent .row .leadIn .widgetBody p {color: #FFFFFF;font-size: 1.3rem;line-height: 1.68;padding:2rem 0;border-bottom: 1px solid #5b6e3e;}
+
+section.pageContent .row .services .widgetBody {padding: 2rem 0 2rem 2rem;}
+
+section.pageContent .row .services.col-lg-4.col-md-4.col-sm-4 {padding-top: .5rem; padding-bottom: 1.5rem;}
+section.pageContent .row .services.col-lg-4.col-md-4.col-sm-4 h2 { font-family: "Vollkorn Bold",serif;position: relative;padding-bottom: 1.5rem;text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);}
+section.pageContent .row .services.col-lg-4.col-md-4.col-sm-4 p {color: #FFFFFF;padding-top: 0;padding-bottom: 1.5rem;}
+
+section.pageContent .row.events {padding: 0 2rem;background: #FEF8E5 none;}
+.upcoming { margin-top: 20px !important; padding-left: 20px; position: relative !important;}
+
+section.pageContent .eventHeader {font-family: 'Vollkorn', serif;font-weight: normal;border-bottom: 1px solid #a19380;padding: 2rem 0 2rem 0;}
+			
+section.pageContent .eventHeader {padding-top: 1rem;padding-bottom: 3.5rem;}
+section.pageContent .eventHeader h2 {color: #a19380;font-size: 2.5rem;font-weight: normal;}
+
+section.pageContent .eventListing {padding-top: 2rem;}
+section.pageContent .eventListing figure {padding-bottom: 2rem;}
+section.pageContent .eventListing figure .eventLocation p {color: #8d7658;font-family: 'Vollkorn', serif;font-weight: normal;font-size: 1.2rem;font-style: italic;padding-top: 0; padding-bottom: .5rem;}
+section.pageContent .eventListing figure .eventCTA {padding-left: 9.4rem;}
+section.pageContent .eventListing figure .eventCTA p {color: #8d7658;}
+section.pageContent .eventListing figure .eventCTA a {color: #8d7658;text-decoration: underline;}
+
+
+section.pageContent .viewCalendar {padding-top: 2rem;padding-bottom: 2rem;text-align: center;}
+section.pageContent .viewCalendar input {background-color:#FFFFFF;font-size: 0.9rem;width: 19.5rem;height: 2.8rem;}
+
+.featureLinks .row .col-lg-4.col-md-4.col-sm-4 {
+    background:#a6b53e 0 0 no-repeat;
+    background-size: 100%;
+}
+
+
+#footer .accordions .accordion-ver > ul > li > div {padding: 1.5rem 1rem;}
+#footer .accordions .accordion-ver > ul > li > div > ul > li > a {color: #FFFFFF;font-size: 1.2rem;line-height: 1.7;}
+#footer .accordions .accordion-ver > ul > li > div > p {color: #FFFFFF;font-size: 1.2rem;line-height: 1.5;padding-bottom: 1rem;}
+#footer .accordions .accordion-ver > ul > li > div > div > span:after {content: '\A'; white-space: pre;}
+
+#footer .accordions .accordion-ver > ul > li > div input#Button2 {margin-left: 1rem;}
+
+@media screen and (min-width: 0px) and (max-width: 740px) {
+    .featureLinks .row { margin-top:1rem; }
+    .featureLinks .row .col-lg-4.col-md-4.col-sm-4 {
+        display: block;
+        width: 310px;
+        margin: 0 auto;
+        float: none;
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (min-width: 520px) and (max-width: 740px) {
+	.featureLinks .row .col-lg-4.col-md-4.col-sm-4 {width: 500px;}
+}
+
+
+/*INDEX PAGE STYLES END*/
+
+@media screen and (min-width: 520px) {
+
+	section.hero.mobile {display: block;}
+	section.hero.desktop {display: none;}
+	section.pageContent .credentials img.mobile {display: block;}
+	section.pageContent .credentials img.desktop {display: none;}
+
+	section.flexslider .slides > li > .title {top: 4rem;}
+	section.flexslider .slides > li > .title p {font-size: 2.5rem; line-height: 28px;}
+	section.flexslider .slides > li > .subtitle {top: 10rem;}
+	section.flexslider .slides > li > .subtitle p {font-size: 1.4rem;}
+	section.flexslider .slideWrapper ol.flex-control-nav {display: block;bottom: 1.5rem;}
+	
+	.featureLinks .row .col-lg-4.col-md-4.col-sm-4 {min-height: 8rem;}
+	.featureLinks .row .col-lg-4.col-md-4.col-sm-4 p {font-size: 2.8rem;}
+	.featureLinks .row .col-lg-4.col-md-4.col-sm-4 p.doubleLine {font-size: 2.8rem;}
+
+	section.pageContent .row .hero2 .widgetBody {background-size:550%;padding-top: 6rem;padding-bottom:0;}
+	section.pageContent .row .hero2 .widgetBody p {font-size: 2.6rem;text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);}
+	section.pageContent .row .hero2 .secondaryTileCopy ul li {font-size: 1.4rem;}
+
+	section.pageContent .row .services.col-lg-4.col-md-4.col-sm-4 {width: 99%;}
+	section.pageContent .row .services.col-lg-4.col-md-4.col-sm-4 h2 {font-size: 3.3rem;}
+	section.pageContent .row .services.col-lg-4.col-md-4.col-sm-4 p {font-size: 1.4rem;}
+
+	section.pageContent .eventHeader {padding-top: 1.5rem;padding-bottom: 4.5rem;}
+	section.pageContent .eventHeader h2 {font-size: 3rem;}
+
+	section.pageContent .eventListing figure {padding-bottom: 5rem;}
+	section.pageContent .eventListing figure.event--one .eventLogo,
+	section.pageContent .eventListing figure.event--two .eventLogo,
+	section.pageContent .eventListing figure.event--three .eventLogo {padding-bottom: 3rem;}
+
+	section.pageContent .eventListing figure .eventLocation p {font-size: 2rem;}
+	section.pageContent .eventListing figure .eventCTA {padding-left: 16.3rem;}
+
+	section.pageContent .viewCalendar {padding-top: 0rem;padding-bottom: 3rem;}
+
+}
+
+@media screen and (min-width: 740px) {
+
+	.featureLinks .row {position:absolute; padding-left: 2%; padding-right: 2%; width: 100%; margin-top: -11rem;}
+    .featureLinks .row.moreInfo {margin-top:-8rem;}
+
+	section.hero.mobile {display: block;}
+	section.hero.desktop {display: none;}
+	section.pageContent .credentials img.mobile {display: block;}
+	section.pageContent .credentials img.desktop {display: none;}
+
+    section.pageContent .row .hero2 .widgetBody {
+        background: #a4a78a url("../images/leconte-hero-960.jpg") bottom center no-repeat;
+        background-size: auto;
+    }
+	section.pageContent .row .hero2 .secondaryTileCopy ul li {/*width: 39%;*/}
+	section.pageContent .row .hero2 .widgetBody p {font-size: 3.6rem;}
+	section.pageContent .row .leadIn .widgetBody p {font-size: 1.7rem;padding: 4rem 0;border-bottom: 2px solid #5b6e3e;}
+
+	.featureLinks .row .col-lg-4.col-md-4.col-sm-4 {min-height: 3.8rem; margin-left: 9px; width: 32%;}
+    .featureLinks .row .col-lg-4.col-md-4.col-sm-4 p {font-size: 1.7rem;}
+	.featureLinks .row .col-lg-4.col-md-4.col-sm-4 p.doubleLine {font-size: 1.4rem;}
+
+	section.pageContent .row .services.col-lg-4.col-md-4.col-sm-4 h2 {font-size: 4.3rem; padding-bottom: 1.2rem;}
+	section.pageContent .row .services.col-lg-4.col-md-4.col-sm-4 p {padding-bottom: 2.5rem;}
+
+	section.pageContent .eventHeader {padding-top: 2.5rem;padding-bottom: 5.5rem;border-bottom: 2px solid #a19380;}
+	section.pageContent .eventHeader h2 {font-size: 4.3rem;text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.9);}
+
+	section.pageContent .eventListing {padding-top: 3.5rem;}	
+	section.pageContent .eventListing figure.event--one .eventLogo,
+	section.pageContent .eventListing figure.event--two .eventLogo,
+	section.pageContent .eventListing figure.event--three .eventLogo {padding-bottom: 6rem;width: 40%;}
+	section.pageContent .eventListing figure .eventLocation p {font-size: 2.5rem;}
+	section.pageContent .eventListing figure .eventCTA p {font-size: 1.5rem;}
+
+	#connect .row .sectionHeader h2 {padding-top: 3rem;padding-bottom: 3rem;}
+}
+@media screen and (min-width: 960px) {
+
+	section.hero.mobile {display: none;}
+	section.hero.desktop {display: block;}
+	section.pageContent .credentials img.mobile {display: none;}
+	section.pageContent .credentials img.desktop {display: block;}
+
+	header .siteSearch span.searchBox input {margin: 0;max-width: 23rem;}
+
+	section.flexslider .slides > li > .title {top: 4rem;}
+	section.flexslider .slides > li > .title p {font-size: 4rem;padding-left: 5rem; line-height: 42px;}
+	section.flexslider .slides > li > .subtitle {top: 13rem}
+	section.flexslider .slides > li > .subtitle p {font-size: 1.8rem;padding-left: 5rem;}
+
+	section.flexslider .slideWrapper ul.flex-direction-nav .flex-prev {top: 20.5rem;}
+	section.flexslider .slideWrapper ul.flex-direction-nav .flex-next {top: 20.5rem;}
+
+	.featureLinks .row {margin-top: -15rem; padding-left: 1%; padding-right: 1%; width: 100%;}
+    .featureLinks .row.moreInfo { margin-top: -9rem; }
+
+	.featureLinks .row .row .col-lg-4.col-md-4.col-sm-4 {
+		-webkit-box-shadow: 4px 4px 4px 0px rgba(50, 50, 50, 1);
+		-moz-box-shadow:    4px 4px 4px 0px rgba(50, 50, 50, 1);
+		box-shadow:         4px 4px 4px 0px rgba(50, 50, 50, 1);
+		width: 300px;
+	}
+
+	.featureLinks .row .col-lg-4.col-md-4.col-sm-4 {min-height: 4.9rem; width: 32%; margin-left: 9px;}
+	.featureLinks .row .col-lg-4.col-md-4.col-sm-4 p {font-size: 2.3rem; height: 35px; line-height: 18px;}
+	.featureLinks .row .col-lg-4.col-md-4.col-sm-4 p.doubleLine {font-size: 1.7rem; height: 35px; line-height: 18px;}
+
+    section.pageContent .row .hero2 .secondaryTile h2 { padding-left:40px; }
+    section.pageContent .row .hero2 .widgetBody { background:#a4a78a url("../images/leconte-hero-960.jpg") bottom center no-repeat; background-size:auto; }
+    section.pageContent .row .hero2 .secondaryTileCopy ul li { padding:0 4rem 2rem; }
+
+	section.pageContent .row .leadIn .widgetBody p {padding: 4rem;}
+
+	section.pageContent .row .services {padding-bottom: 4rem;}
+	section.pageContent .row .services.col-lg-4.col-md-4.col-sm-4 {width: 32.33%;}
+    section.pageContent .row .services .widgetBody {padding: 1rem 0 1rem 4rem;}
+    section.pageContent .row .services.col-lg-4.col-md-4.col-sm-4 h2 {font-size: 2.3rem;}
+
+	section.pageContent .row.events {padding-left: 4rem;padding-right: 4rem;margin: 0;}
+	section.pageContent .eventListing figure {padding-bottom: 5rem;float: left;width: 33.3%;}
+    section.pageContent .eventListing figure.event--one .eventLogo {background-size: 150%;width: 55%;}
+    section.pageContent .eventListing figure.event--two .eventLogo {background-size: 100%;width: 70%;}
+    section.pageContent .eventListing figure.event--three .eventLogo {background-size: 100%;width: 70%;}
+
+	section.pageContent .eventListing figure .eventLocation {float: left;}
+
+	section.pageContent .eventListing figure .eventCTA {float: left;padding-left: 0;}
+
+	section.pageContent .viewCalendar {padding-top: 3rem;padding-bottom: 2rem;float: left;position: absolute;left: 34rem;}
+
+	section#connect {top: -1.8rem;}
+}
+
+
+
+/*Embded Code*/
+nav.pushy ul ul li {
+	background-color: rgb(70, 79, 79);
+}
+ @media screen and (min-width: 768px) {
+.container {
+	width: 100% !important;
+	padding: 0px !important;
+}
+.col-lg-12 .col-md-12 .col-sm-12 .col-xs-12 {
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+}
+ @media screen and (max-width: 768px) {
+div.logo {
+	float: none;
+}
+div.logo img {
+	padding-top: 10px;
+	margin: 0 auto;
+}
+div.siteSearch {
+	float: none;
+}
+div.siteSearch p {
+	text-align: center;
+}
+}
+ @media screen and (max-width: 960px) {
+nav .secondaryMenu a {
+/*font-size: 1.5em;
+                            text-transform: inherit;
+                            padding-right: inherit; */
+}
+nav .secondaryMenu {
+/*height: 50px;
+                            padding: 0px;*/
+}
+section.container.hero.mobile {
+	display: none;
+}
+section.container.hero.desktop {
+	display: block;
+}
+.widget--content-block h2 {
+	position: inherit;
+}
+p {
+	margin: 0px;
+}
+}
+ @media screen and (max-width: 520px) {
+}
+ @media screen and (min-width: 960px) {
+/*width: 960px;*/
+/* section.container.hero.mobile {display: block; } */
+/* section.container.hero.desktop {display: none; } */
+.widget--content-block h2 {
+	position: inherit;
+}
+section.pageContent {
+	margin-left: 0px;/**/
+}
+}
+.accordions {
+/*padding-left: inherit;
+padding-right: 0px; */
+}
+.container {
+	/*width: 960px; */
+	padding-left: inherit;
+	padding-right: 0px;
+}
+.header_image {
+	padding-left: inherit;
+	padding-right: 0px;
+}
+h2 {
+	margin-top: inherit;
+}
+h2.content-title {
+	left: 0px;
+}
+.header_image_menu {
+	position: absolute;
+	top: -65px;
+	text-align: center;
+}
+.connct-section {
+	padding: 25px 0 !important;
+}
+.connct-section h3 {
+	font-size: 22px;
+	text-align: center;
+	margin: 5px;
+	color: #8d7658 !important;
+	font-family: 'Vollkorn', serif;
+	padding: 0px 20px;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+}
+.fa-lg {
+	font-size: 1.53333em;
+	line-height: 0.75em;
+	vertical-align: -15%;
+}
+.mobile .sosal-head {
+	display: block;
+	padding: 0;
+}
+.connct-section-view {
+	text-align: center
+}
+ @media (max-width: 960px) {
+  .connct-section h3 {
+  	padding-left: 15px;
+  	padding-right: 15px;
+  	box-sizing: border-box;
+  	margin-bottom: 10px;
+  }
+  .mobile .sosal-head {
+  	display: none;
+  }
+  .connct-section-view {
+  	margin: 20px 0;
+  	width: 100%;
+  	text-align: center;
+  }
+}

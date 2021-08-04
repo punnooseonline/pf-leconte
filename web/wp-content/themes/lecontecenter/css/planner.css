@@ -1,0 +1,640 @@
+	blockquote {color: #8d7658;position: relative;font-size: 1rem;line-height: 1.8;text-align: justify;display:block;padding: 1.5rem 0 .5rem 1.5rem;margin-bottom: 0;border-left: .5rem solid #CCCCCC;}
+
+	.logo {left: 0;}
+	.logo img {float: none;}
+
+    .seperator { border-bottom: 1px solid #8d7658; }
+	.six.siteSearch {text-align: center;}
+
+	a.mobileNum {color: #8d7658;text-decoration: underline;}
+	a.mobileNum:hover {color: #8d7658;text-decoration: underline;}
+
+	a.mailTo {color: #8d7658;}
+	a.mailTo:hover {color: #8d7658;}
+
+	#LCfeatures.featureLinks .row .col-lg-4.col-md-4.col-sm-4.col-xs-4 {min-height: 6.2rem;}
+	#LCfeatures.featureLinks .row .col-lg-4.col-md-4.col-sm-4.col-xs-4:nth-child(1) {background: url("../images/leconte-feature-rfp.png") no-repeat 0 0 #a6b53e;background-size: 100%;}
+	#LCfeatures.featureLinks .row .col-lg-4.col-md-4.col-sm-4.col-xs-4:nth-child(2) {background: url("../images/leconte-feature-floorplans.png") no-repeat 0 0 #a6b53e;background-size: 100%;}
+	#LCfeatures.featureLinks .row .col-lg-4.col-md-4.col-sm-4.col-xs-4:nth-child(3) {background: url("../images/leconte-feature-photo-video.png") no-repeat 0 0 #a6b53e;background-size: 100%;}
+	#LCfeatures.featureLinks .row .col-lg-4.col-md-4.col-sm-4.col-xs-4:nth-child(4) {background: url("../images/leconte-feature-policy.png") no-repeat 0 0 #a6b53e;background-size: 100%;}
+	#LCfeatures.featureLinks .row .col-lg-4.col-md-4.col-sm-4.col-xs-4:nth-child(5) {background: url("../images/leconte-feature-tools.png") no-repeat 0 0 #a6b53e;background-size: 100%;}
+	#LCfeatures.featureLinks .row .col-lg-4.col-md-4.col-sm-4.col-xs-4:nth-child(6) {background: url("../images/leconte-feature-faqs.png") no-repeat 0 0 #a6b53e;background-size: 100%;}
+
+	a.quicklink {
+	margin: 0rem 0.5rem;
+	color: #FFFFFF;
+	font-size: 1.2rem;
+	display: inline-block;
+	width: 14.2rem;
+	height: 4.6rem;
+	border: 1px solid #FFFFFF;
+    text-align:left;
+    margin-bottom:1rem;
+    }
+	a.quicklink:first-child { margin-top:1rem; }
+	a.quicklink.form {
+	background: url("../images/leconte-feature-rfp.png") no-repeat 0 0 #a6b53e;
+	background-size: 160%;
+	padding-top: 1rem;
+	padding-left: 5rem;
+        vertical-align: bottom;
+	}
+	a.quicklink.house {
+	background: url("../images/leconte-feature-floorplans.png") no-repeat 0 0 #a6b53e;
+	background-size: 160%;
+	padding-top: 1rem;
+	padding-left: 5rem;
+	padding-right: 4rem;
+	vertical-align: bottom;
+	}
+	a.quicklink.photo {
+	background: url("../images/leconte-feature-photo-video.png") no-repeat 0 0 #a6b53e;
+	background-size: 160%;
+	padding-top: 1.6rem;
+	padding-left: 5rem;
+	padding-right: 2rem;
+	}
+	a.quicklink.myEvent {
+	background: url("../images/leconte-feature-my-event.png") no-repeat 0 0 #a6b53e;
+	background-size: 160%;
+	padding-top: 1.6rem;
+	padding-left: 5rem;
+	padding-right: 2rem;
+	}
+	a.quicklink.ourEvent {
+	background: url("../images/leconte-feature-event-list.png") no-repeat 0 0 #a6b53e;
+	background-size: 160%;
+	padding-top: 1.6rem;
+	padding-left: 5rem;
+	padding-right: 2rem;
+	}
+	a.quicklink.gear {
+	background: url("../images/leconte-feature-tools.png") no-repeat 0 0 #a6b53e;
+	background-size: 160%;
+	padding-top: 1rem;
+	padding-left: 5rem;
+	}
+	a.quicklink.question {
+	background: url("../images/leconte-feature-faqs.png") no-repeat 0 0 #a6b53e;
+	background-size: 160%;
+	padding-left: 4.9rem;
+	padding-top: 1rem;
+	}
+
+	section.plannersLC {background-color: #443e36;}
+		section.plannersLC .moreInfo {padding: .5rem 2rem;}
+			section.plannersLC .moreInfo  {padding-top: .5rem;}
+			section.plannersLC .moreInfo .socialLikes	{padding-bottom: 1rem;}
+				section.plannersLC .moreInfo p {color: #eae4cd;font-size: 1.5rem;}
+		    section.plannersLC .moreInfo .tools a {display: inline-block;padding: 0 0.3rem;}
+
+	section.pageContent {background: #fef8e5;}
+
+		section.pageContent .amenities {background-color: #fef8e5;}
+			section.pageContent .amenities h2 {color:#8d7658;position: relative;padding: 2rem;}
+			section.pageContent .amenities img {}
+
+		section.pageContent .amenityTypes {background-color: #fef8e5;padding: 2rem 0;}
+			section.pageContent .amenityTypes figure {padding-bottom: 2rem;}
+				section.pageContent .amenityTypes figure .amenityLogo {
+					background: url("../images/leconte-amenity-icon-gear.png") 0 0 no-repeat;
+					width: 17%;
+					padding-bottom: 5rem;
+					float: left;
+				}
+                section.pageContent .amenityTypes figure.amenity--1event .amenityLogo { background-image: url("../images/leconte-amenity-icon-1event.png"); }
+                section.pageContent .amenityTypes figure.amenity--av .amenityLogo { background-image: url("../images/leconte-amenity-icon-av.png"); }
+                section.pageContent .amenityTypes figure.amenity--centralLocation .amenityLogo { background-image: url("../images/leconte-amenity-icon-centralLocation.png"); }
+                section.pageContent .amenityTypes figure.amenity--flexible .amenityLogo { background-image: url("../images/leconte-amenity-icon-flexible.png"); }
+                section.pageContent .amenityTypes figure.amenity--housing .amenityLogo { background-image: url("../images/leconte-amenity-icon-housing.png"); }
+                section.pageContent .amenityTypes figure.amenity--ownersOffice .amenityLogo { background-image: url("../images/leconte-amenity-icon-ownersOffice.png"); }
+                section.pageContent .amenityTypes figure.amenity--parking .amenityLogo { background-image: url("../images/leconte-amenity-icon-parking.png"); }
+                section.pageContent .amenityTypes figure.amenity--registration .amenityLogo { background-image: url("../images/leconte-amenity-icon-registration.png"); }
+                section.pageContent .amenityTypes figure.amenity--seating .amenityLogo { background-image: url("../images/leconte-amenity-icon-seating.png"); }
+                section.pageContent .amenityTypes figure.amenity--tram .amenityLogo { background-image: url("../images/leconte-amenity-icon-tram.png"); }
+                section.pageContent .amenityTypes figure.amenity--wifi .amenityLogo { background-image: url("../images/leconte-amenity-icon-wifi.png"); }
+
+				section.pageContent .amenityTypes figure .amenityService h2 {color: #8d7658;font-size: 1.5rem;font-weight: normal;padding-top: 0;padding-bottom: .5rem;padding-left: 6rem;text-shadow: none;}
+				section.pageContent .amenityTypes figure .amenityService p {color: #8d7658;font-family: 'Vollkorn', serif;font-weight: normal;font-size: 1.2rem;padding-left: 6rem;padding-bottom: .5rem;line-height: 1.3;}
+
+
+			section.pageContent .amenityTypes .loadMore {padding: 0 2rem;}
+				section.pageContent .amenityTypes .loadMore h2.btnLoad {
+					font-family: 'Lato', sans-serif;
+					font-weight: 700;
+					font-size: 1.5rem;
+					color: #546223;
+					position: relative;
+					text-shadow: none;
+					background: #FFFFFF;
+					border-top: 1px solid #505050;
+					border-bottom: 1px solid #505050;
+					padding: 0.5rem 0 0.5rem 0;
+					text-align: center;
+					cursor: pointer;
+				}
+
+				section.pageContent .amenityTypes .loadProgress {padding: 1rem 2rem;background: #fef8e5;}
+					progress[value] {
+						appearance: none;
+						border: none;
+						width: 100%; height: 20px;
+						background-color: #FFFFFF;
+						border-radius: 3px;
+						box-shadow: 0 2px 3px rgba(0,0,0,.5) inset;
+						color: #FFFFFF;
+						position: relative;
+						margin: 0 0 1.5em;
+					}
+					progress[value]::-webkit-progress-bar {background-color: white;border-radius: 3px;box-shadow: 0 2px 3px rgba(0,0,0,.5) inset;}
+					progress[value]::-webkit-progress-value {position: relative;background-size: 35px 20px, 100% 100%, 100% 100%;border-radius:3px;}
+					progress[value]::-moz-progress-bar {
+						background-image:
+						-webkit-linear-gradient( 0deg,
+						transparent,
+						transparent 100%,
+						rgba(0,0,0,.1) 100%,
+						rgba(0,0,0,1) 100%,
+						transparent 100%),
+						-webkit-linear-gradient( top,
+						rgba(0, 0, 0, 0),
+						rgba(0,0,0,0)),
+						-webkit-linear-gradient( left, #aeba55, #aeba55);
+						background-size: 35px 20px, 100% 100%, 100% 100%;
+						border-radius:3px;
+					}
+					.progress-bar {background-color: white;border-radius: 3px;box-shadow: 0 2px 3px rgba(0,0,0,.5) inset;width: 100%; height:20px;}
+					.progress-bar span {background-color: #aeba55;border-radius: 3px;display: block;text-indent: -9999px;}
+					p[data-value] {position: relative;}
+					.html5::-webkit-progress-value  {
+						background-image:
+						-webkit-linear-gradient( 0deg,
+						transparent,
+						transparent 100%,
+						rgba(0,0,0,.1) 100%,
+						rgba(0,0,0,1) 100%,
+						transparent 100%),
+						-webkit-linear-gradient( top,
+						rgba(0, 0, 0, 0),
+						rgba(0,0,0,0)),
+						-webkit-linear-gradient( left, #aeba55, #aeba55);
+					}
+
+		section.pageContent .callForTour {background: #a6b53e;}
+			section.pageContent .callForTour p {color: #FFFFFF;font-size: 1.3rem;line-height: 1.5;padding: 1rem 4rem 1.1rem 4rem;text-align: center;}
+				section.pageContent .callForTour p a.mobileNum {color: #FFFFFF;text-decoration: underline;}
+				section.pageContent .callForTour p a.mailTo {color: #FFFFFF;}
+
+        section.pageContent .cta-travel-planner { font-size: 1.75em; width: 220px; margin: 0 auto; line-height: 1.5; }
+            section.pageContent .cta-travel-planner img { display:block; }
+
+		section.pageContent .moreInfo {}
+			section.pageContent .moreInfo  {background: #a6b53e;}
+				section.pageContent .moreInfo p {color:#FFFFFF;font-size: 1.5rem;text-align: center;padding: 1rem 2rem;}
+				section.pageContent .moreInfo p a {color:#FFFFFF;}
+
+		section.pageContent .serviceProviders h2 {background: #fef8e5;color:#8d7658;position:relative;padding: 1rem 2rem;}
+		section.pageContent .serviceProviders p {padding-left: 2rem;}
+			section.pageContent .serviceProviders p	a {color: #8d7658;text-decoration: underline;}
+			section.pageContent .serviceProviders p	a:hover {color: #8d7658;text-decoration: underline;}
+
+		section.pageContent .serviceProviderTypes  {background: #fef8e5;}
+			section.pageContent .serviceProviderTypes h2 {color:#8d7658;position:relative;padding: 1rem 2rem 0.5rem 2rem;}
+			section.pageContent .serviceProviderTypes p {color:#8d7658;position:relative;padding: 0rem 2rem 1.5rem 2rem;}
+
+
+			section.pageContent .serviceProviderTypes .loadMore {padding: 0 2rem;}
+				section.pageContent .serviceProviderTypes .loadMore h2.btnLoad {
+					font-family: 'Lato', sans-serif;
+					font-weight: 700;
+					font-size: 1.5rem;
+					color: #546223;
+					position: relative;
+					text-shadow: none;
+					background: #FFFFFF;
+					border-top: 1px solid #505050;
+					border-bottom: 1px solid #505050;
+					padding: 0.5rem 0 0.5rem 0;
+					text-align: center;
+					cursor: pointer;
+				}
+				section.pageContent .serviceProviderTypes .loadProgress {padding: 1rem 2rem;background: #fef8e5;}
+
+		section.pageContent .lodging h2 {background: #fef8e5;color:#8d7658;position:relative;padding: 1rem 2rem;}
+			section.pageContent .booking .bookingForm {background: #e7ddbc;}
+				section.pageContent .bookingForm h2 {color: #8d7658;position: relative;font-family: 'Lato', sans-serif;font-size: 1.6rem;font-weight:700;text-shadow: none;text-transform: uppercase;padding: 1.5rem 0 1.5rem 1.5rem;}
+				section.pageContent .bookingForm hr {background-color: #8d7658;width: 90%;text-align:center; margin: 0 auto;}
+				section.pageContent .bookingForm form {padding: 2rem;}
+					section.pageContent .bookingForm label {color:#8d7658;display: block;}
+					section.pageContent .bookingForm input {color:#8d7658;width: 95%;padding: 0.2rem;margin: 0.5rem 0 1rem 0;}
+					section.pageContent .bookingForm form span.calendarIcon {width: 6%;height: auto;float: right;margin-top: -3rem;margin-right: 2rem;}
+						section.pageContent .bookingForm form span.calendarIcon a {}
+						section.pageContent .bookingForm form span.calendarIcon a img {}
+					section.pageContent .bookingForm form span.numberOfDays,section.pageContent .bookingForm form span.numberOfRooms {display: inline-block;width: 49%;padding: 1rem 0;text-align: center;}
+					section.pageContent .bookingForm form span.numberOfDays label,section.pageContent .bookingForm form span.numberOfRooms label {text-align: left;padding-left: 2.7rem;padding-bottom: 0.5rem;}
+					section.pageContent .bookingText {background: #fef8e5;color: #8d7658;padding: 2rem;font-size: 1.3rem;line-height: 1.7;}
+						section.pageContent .bookingText p {color:#8d7658;font-size:1.4rem;line-height:1.8rem;padding:2rem;}
+
+					section.pageContent ul.accommodations {background: #fef8e5;padding: 0;}
+
+	section.pageContent .divider {background-color: #fef8e5;}
+		section.pageContent .divider  {border-bottom: 1px solid #8d7658;width: 85%;margin: 0 2rem;}
+
+	section.pageContent .accommodationsList  {background: #fef8e5;}
+		section.pageContent .accommodationsList h2 {color:#8d7658;font-size:1.8rem;position:relative;text-shadow:none;padding: 1rem 2rem 0.5rem 2rem;}
+		section.pageContent .accommodationsList ul li {padding: 0rem 2rem 1.2rem 2rem;}
+			section.pageContent .accommodationsList ul li a {color:#8d7658;font-size: 1.3rem;}
+				section.pageContent .accommodationsList hr {background-color: #8d7658;width: 90%;text-align:center; margin: 0 auto;}
+
+	section.pageContent .locations h2 {background: #fef8e5;color: #8d7658;position: relative;padding: 1rem 2rem;}
+	section.pageContent .nearBy h2 {background: #fef8e5;color: #8d7658;position: relative;padding: 1rem 2rem;}
+
+		section.pageContent .attractions {background-color: #fef8e5;padding: 0 2rem 2rem 2rem;}
+			section.pageContent .attractions blockquote.attractions {border-color: #b71239;margin-bottom: 1rem;}
+			section.pageContent .attractions blockquote.restaurants {border-color: #bfd412;margin-bottom: 1rem;}
+			section.pageContent .attractions blockquote.hotels {border-color: #0472b7;}
+
+				section.pageContent blockquote h3 {color: #8d7658;font-size: 1.8rem;margin-top: -1.8rem;}
+				section.pageContent blockquote ul li {color: #8d7658;font-size: 1.3rem;}
+
+		.secondaryTile #map_canvas.leConteCenter {width:100% !important;height:200px !important;}
+		.secondaryTileCopy #categories {padding: 0;}
+		.secondaryTileCopy #categories li {margin-bottom: 1em;}
+			.secondaryTileCopy #categories li a { /*background-size: 15% !important;*/ padding-bottom: 3.5rem;}
+		.secondaryTileCopy #categories li:last-child {margin-bottom: 0 !important;}
+
+		section.pageContent .team {background-color: #fef8e5;}
+			section.pageContent .team h2 {color: #8d7658;position: relative;padding: 2rem 0;}
+			section.pageContent .team .teamMember {background-color: #e7ddbc;margin-bottom: 1rem;}
+
+	section.pageContent .team .teamMember {
+		width: 100%;
+		float: left;
+		position: relative;
+		margin: 1rem 0;
+		min-height: 380px;
+	}
+
+	section.pageContent .team .teamMember figcaption.memberInfo {
+		padding-top: 2rem;
+		padding-right: 0;
+		padding-left: 2rem;
+	}
+		section.pageContent .team .teamMember figcaption.memberInfo p {
+			color: #8d7658;
+			font-size: 1.2rem;
+			line-height: 1.6;
+			padding: 0 1.1rem 0.5rem 0;
+		}
+
+	section.pageContent .team .teamMember .memberPic {
+		float: right;
+		padding-left: 2rem;
+		max-height: 170px;
+		overflow: hidden;
+		max-width: 150px;
+	}
+
+	section.pageContent .team .teamMember figure .memberPhone {color: #8d7658;float: left;width: 90%;}
+		section.pageContent .team .teamMember figure .memberPhone span.phoneIcon {background: url("../images/leconte-team-icon-phone.png") no-repeat 0 0 transparent;background-size: 15%;float: left;padding: 0rem 0 0 0.5rem;}
+		section.pageContent .team .teamMember figure .memberPhone span.phoneIcon p {padding-left: 3rem;}
+			section.pageContent .team .teamMember figure .memberPhone span.phoneIcon p a.mobileNum {color: #8d7658;}
+		section.pageContent .team .teamMember figure .memberPhone span.phoneIcon p {padding-left: 3rem;}
+
+	section.pageContent .team .teamMember figure .memberEmail {color: #8d7658;float: left;width: 90%;padding-bottom: 0.5rem;}
+		section.pageContent .team .teamMember figure .memberEmail span.emailIcon {background: url("../images/leconte-team-icon-mail.png") no-repeat 0 0 transparent;background-size: 15%;float:left;padding: 0rem 0 0 0.5rem;}
+			section.pageContent .team .teamMember figure .memberEmail span.emailIcon p a.mobileNum {}
+		section.pageContent .team .teamMember figure .memberEmail span.emailIcon p {padding-left: 3rem;}
+			section.pageContent .team .teamMember figure .memberEmail span.emailIcon p a.mailTo {color: #8d7658;}
+
+	.title-brown-text .content-title {color: #8d7658;position: relative;padding: 2rem;background:#fef8e5;}
+
+	.secondaryTileCopy { padding: 2rem 2rem 1rem 2rem;background:#fef8e5;}
+	    .secondaryTileCopy h2 {color: #8d7658;font-size: 1.9rem;position: relative;padding-bottom: 1rem;text-shadow: none;}
+	    .secondaryTileCopy h3 {color: #8d7658;font-size: 1.5rem;padding-bottom: 1.5rem;}
+	    .secondaryTileCopy p {color: #8d7658;line-height: 1.5;padding-bottom: 2rem;font-size: 1.3rem;}
+
+.widget--leconte-map { position:relative; }
+.widget--leconte-map a.directions-link {
+    margin: 0 0 2rem 2rem;
+    display: block;
+    width: 275px;
+}
+       
+@media screen and (min-width: 520px) {
+
+	section.pageContent .amenityTypes figure {padding-bottom: 2rem;padding-left: 2rem;}
+	section.pageContent .amenityTypes figure .amenityService p {font-size: 1.4rem;padding-left: 8.5rem;}
+	.secondaryTileCopy h3 {font-size: 1.8rem;padding-left: 2rem;padding-right: 2rem;}
+	section.pageContent .attractions blockquote.attractions {border-color: #b71239;margin-bottom: 2rem;}
+	section.pageContent .amenityTypes figure .amenityLogo {width: 15%;}
+
+	#LCfeatures.featureLinks .row .col-lg-4.col-md-4.col-sm-4.col-xs-4 {min-height: 10.3rem;}
+
+	section.plannersLC .moreInfo .socialLikes ul li {padding: 0;}
+		section.plannersLC .moreInfo .socialLikes ul li img {width: 90%;}
+	section.plannersLC .moreInfo .tools ul {text-align: right;}
+
+	section.pageContent .amenityTypes .loadMore,section.pageContent .serviceProviderTypes .loadMore {padding: 0 8rem;}
+
+	section.pageContent .amenityTypes figure .amenityService h2 {font-size: 2rem;padding-left: 8rem;}
+
+    section.pageContent .cta-travel-planner { font-size: 2.25em; width: 500px; }
+        section.pageContent .cta-travel-planner img { display:inline; float:left; }
+
+	progress[value] {width: 60%;margin-left: 9rem;}
+	section.pageContent .moreInfo p {font-size: 2rem;padding: 1rem 5rem;}
+
+
+	section.pageContent .serviceProviderTypes h2 {padding-top:2rem;}
+	section.pageContent .booking .bookingForm {max-height: 19rem;}
+		section.pageContent .bookingForm h2 {padding-left: 2.5rem;}
+		section.pageContent .bookingForm form span.calendarIcon {width: 3.5%;margin-left: 23.7rem;float: left;}
+
+	section.pageContent .bookingForm input {width: 55%;margin-right: 21.5rem;}
+
+	section.pageContent .bookingForm form span.numberOfDays {float: right;top: -11rem;display: block;position: relative;padding: 1rem 0.5rem;}
+		section.pageContent .bookingForm form span.numberOfDays label {padding-left: 5.5rem;}
+		section.pageContent .bookingForm form span.numberOfDays select {width: 50%;}
+
+	section.pageContent .bookingForm form span.numberOfRooms {float: right;top: -5.9rem;display: block;position: relative;padding: 1rem 0.5rem;left: 23rem;}
+		section.pageContent .bookingForm form span.numberOfRooms label {padding-left: 5.5rem;}
+		section.pageContent .bookingForm form span.numberOfRooms select {width: 50%;}
+
+		section.pageContent .nearBy h2 {font-size: 3rem;}
+			section.pageContent blockquote h3 {font-size: 2.5rem;}
+			section.pageContent blockquote ul li {font-size: 1.8rem;}
+
+	.secondaryTileCopy #categories { padding: 0; width: 100%; }
+	.secondaryTileCopy #categories li { margin-bottom: 1em; margin-right: 3rem; background: none; }
+
+	section.pageContent .team h2 {font-size: 3rem;}
+		section.pageContent .team .teamMember figure.member--one .memberPic,
+		section.pageContent .team .teamMember figure.member--two .memberPic,
+		section.pageContent .team .teamMember figure.member--three .memberPic,
+		section.pageContent .team .teamMember figure.member--four .memberPic {padding-bottom: 21.4rem;}
+
+		section.pageContent .team .teamMember figcaption.memberInfo h2 {font-size: 2.5rem;}
+		section.pageContent .team .teamMember figcaption.memberInfo h3 {font-size: 1.5rem;padding-left: 0;}
+		section.pageContent .team .teamMember figcaption.memberInfo p {font-size: 1.4rem;line-height: 1.8;padding-right: 1.1rem;padding-bottom: 1.5rem;}
+		section.pageContent .team .teamMember figure .memberPhone {width: 84%;padding-bottom: 0;}
+		section.pageContent .team .teamMember figure .memberEmail {width: 84%;padding-bottom: 0;}
+
+		section.pageContent .team .teamMember figure .memberPhone span.phoneIcon {background-position: 0.4rem 0.4rem;background-size:12%;padding: 0.5rem;}
+			section.pageContent .team .teamMember figure .memberPhone span.phoneIcon p {font-size: 1.6rem;padding-left: 6rem;}
+
+		section.pageContent .team .teamMember figure .memberEmail span.emailIcon {padding: 0.5rem 0.5rem 0 0.5rem;}
+			section.pageContent .team .teamMember figure .memberEmail span.emailIcon p {font-size: 1.6rem;padding-left: 6rem;}
+
+    .widget--leconte-map a.directions-link {
+        margin:0;
+        display: inline;
+        width: auto;
+        position: absolute;
+        right: 4rem;
+        top: 2rem;
+        font-size: 1.5rem;
+        z-index: 10;
+    }
+}
+@media screen and (min-width: 740px) {
+
+	.siteSearch p {padding-right: 9%;}
+    .maplinks {margin-left: 0px !important;}
+	.secondaryTileCopy li { color: #8d7658; font-size: 1.6rem; line-height: 1.5; list-style-type: disc; margin-left: 2rem;}
+
+	.amenities.hero  img.hero {background: url("img/about/laConte-about--dt_amenity.jpg");width: 1079px;height: 192px;}
+	.serviceProviders  img.hero {background: url("img/about/laConte-about--dt_amenity.jpg");width: 1079px;height: 192px;}
+	.lodging  img.hero {background: url("img/planner/laConte-planner--dt_lodging.jpg");width: 1079px;height: 192px;}
+	.locations  img.hero {background: url("img/planner/laConte-planner--dt_googleFPO.jpg");width: 1079px;height: 400px;}
+
+	section#LCfeatures.featureLinks {top: -15rem;}
+	section#LCfeatures.featureLinks .row .col-lg-4.col-md-4.col-sm-4.col-xs-4 {min-height: 4.8rem;margin-bottom: 0.8rem;}
+	section#LCfeatures.featureLinks .row .col-lg-4.col-md-4.col-sm-4.col-xs-4 p {font-size: 1.8rem;}
+    .featureLinks .row .col-lg-4.col-md-4.col-sm-4.col-xs-4 p.doubleLine {padding: 3.5% 0 0 22%;}
+
+    section#LCfeatures.featureLinks .row .col-lg-4.col-md-4.col-sm-4.col-xs-4:nth-child(1) {}
+    section#LCfeatures.featureLinks .row .col-lg-4.col-md-4.col-sm-4.col-xs-4:nth-child(2) {}
+    section#LCfeatures.featureLinks .row .col-lg-4.col-md-4.col-sm-4.col-xs-4:nth-child(3) {}
+    section#LCfeatures.featureLinks .row .col-lg-4.col-md-4.col-sm-4.col-xs-4:nth-child(4) {}
+    section#LCfeatures.featureLinks .row .col-lg-4.col-md-4.col-sm-4.col-xs-4:nth-child(5) {}
+    section#LCfeatures.featureLinks .row .col-lg-4.col-md-4.col-sm-4.col-xs-4:nth-child(6) {}
+
+	a.quicklink {
+	margin: 0rem 0.5rem 1rem;
+	color: #FFFFFF;
+	font-size: 1.2rem;
+	display: inline-block;
+	width: 14.4rem;
+	height: 4.6rem;
+	border: 1px solid #FFFFFF;
+	}
+	body.event-planners a.quicklink:last-child { margin-bottom:0; }
+
+	a.quicklink.form {
+	    background: url("../images/leconte-feature-rfp.png") no-repeat 0 0 #a6b53e;
+	    background-size: 160%;
+	    padding-top: 1rem;
+	    /*padding-left: 5rem;
+        padding-right: 4rem;*/
+	}
+	a.quicklink.house {
+	background: url("../images/leconte-feature-floorplans.png") no-repeat 0 0 #a6b53e;
+	background-size: 160%;
+	padding-top: 1rem;
+	padding-left: 5rem;
+	padding-right: 4rem;
+	}
+	a.quicklink.photo {
+	background: url("../images/leconte-feature-photo-video.png") no-repeat 0 0 #a6b53e;
+	background-size: 160%;
+	vertical-align: bottom;
+	padding-top: 1.6rem;
+	padding-left: 5rem;
+	padding-right: 2rem;
+	}
+	a.quicklink.gear {
+	background: url("../images/leconte-feature-tools.png") no-repeat 0 0 #a6b53e;
+	background-size: 160%;
+	padding-top: 1rem;
+	padding-left: 5rem;
+	}
+	a.quicklink.question {
+	background: url("../images/leconte-feature-faqs.png") no-repeat 0 0 #a6b53e;
+	background-size: 160%;
+	padding-left: 4.9rem;
+	padding-top: 1rem;
+	}
+
+
+	section.plannersLC {top: -11.1rem;}
+
+	.event-attendees section.plannersLC {top: 0;}
+	.event-planners section.pageContent {top: -10.9rem;}
+
+	.event-planners footer#footer--dt.fatFooter.fatFooter {top: -10.9rem;}
+	.event-planners .shadowBox {max-height: 5580px;}
+
+	section.pageContent .amenities h2 {font-size: 3rem;}
+	section.pageContent .amenities img {width: 100%;}
+
+	section.pageContent .amenityTypes figure {float: left;width: 49%;}
+    section.pageContent .amenityTypes figure .amenityLogo {width: 20%;}
+
+	section.pageContent .amenityTypes h2.content-title {padding: 0.5rem 2rem 2rem 4rem;}
+
+	section.pageContent .callForTour {padding: 3rem 2rem;}
+	section.pageContent .callForTour p {font-size: 2.5rem;line-height: 1.3;}
+
+    section.pageContent .cta-travel-planner { width: 727px; }
+
+	progress[value] {margin-left: 14rem;}
+
+	section.pageContent .moreInfo p {font-size: 2.3rem;line-height: 1.3;padding: 3rem 11rem;}
+
+	section.pageContent .amenities h2 {font-size: 3rem;}
+
+	section.pageContent .booking .bookingForm {max-height: 24rem;}
+		section.pageContent .bookingForm h2 {background: #e7ddbc;}
+		section.pageContent .bookingForm form {background: #e7ddbc;padding: 2rem 10rem;}
+		section.pageContent .bookingForm label {font-size: 1.2rem;}
+			section.pageContent .bookingForm form span.calendarIcon {width: 3.5%;margin-left: 29.3rem;margin-top: -3.1rem;}
+			section.pageContent .bookingForm input {width: 60%;margin-right: 0;}
+
+		section.pageContent .bookingForm form span.numberOfDays {float: none;display: inline-block;top: 0;left: -6.6rem;}
+		section.pageContent .bookingForm form span.numberOfRooms {float: none;display: inline-block;top: 0;left: -13.8rem;}
+
+		section.pageContent .bookingForm form span.numberOfDays label {padding-left: 6.4rem;}
+		section.pageContent .bookingForm form span.numberOfRooms label {padding-left: 6.4rem;}
+
+	section.pageContent p.bookingText {color: #8d7658;background: #fef8e5;font-size: 1.4rem;line-height: 1.6;padding: 2rem 4rem 0rem 4rem;}
+	section.pageContent .booking .accommodationsList {background: #fef8e5;}
+
+		section.pageContent p.bookingText {color: #8d7658;background: #fef8e5;font-size: 1.4rem;line-height: 1.6;padding: 2rem 4rem 0rem 4rem;}
+		section.pageContent ul.accommodations {background: #fef8e5;padding: 2rem;}
+			section.pageContent ul.accommodations li {color: #8d7658;}
+
+	section.pageContent .locations h2 {font-size: 3rem;}
+	section.pageContent .nearBy h2 {font-size: 3rem;padding-top: 2.5rem;}
+	section.pageContent .attractions, section.pageContent .restaurants, section.pageContent .hotels {display: inline-block;width: 33%;}
+		section.pageContent .attractions {display: inline-block;width: 100%;padding: 2.5rem 0.5rem;vertical-align: top;}
+		section.pageContent .restaurants {margin-left: 0;padding: 3.5rem 2.5rem;}
+		section.pageContent .hotels {margin-left: 0;padding: 3.5rem 2.5rem;}
+		section.pageContent blockquote ul li {font-size: 1.5rem;}
+
+		section.pageContent .divider {background-color: #fef8e5;}
+			section.pageContent .divider  {border-bottom: 1px solid #8d7658;width: 95%;margin: 0 2rem;}
+
+    .widget--leconte-map .map-loading { position: relative; top: 0; left: 0; width: 100%; text-align: center; }
+	.widget--leconte-map #categories {padding: 0;width: 100%;}
+    .widget--leconte-map #categories li { width: 300px; background: #a6b53e url("../images/leconte-feature-btn.png") 0 0 no-repeat; background-size: 100%; margin-right: .5rem;line-height: 1; }
+    .widget--leconte-map #categories li:last-child { margin-right:0; }
+    .widget--leconte-map #categories li a { padding: 1.5rem 0 2.9rem 91px; font-family: 'Vollkorn', serif; font-weight: normal; color: #FFFFFF; font-size: 2.3rem; }
+    .widget--leconte-map #categories li a.gmap-category { background-size: initial !important; background-position: 20px 7px; }
+
+	section.pageContent .team .teamMember figure .memberPhone {width: 85%;}
+	section.pageContent .team .teamMember figure .memberEmail {width: 85%;}
+
+	section.pageContent .team .teamMember figure.member--one .memberPic,
+	section.pageContent .team .teamMember figure.member--two .memberPic,
+	section.pageContent .team .teamMember figure.member--three .memberPic,
+	section.pageContent .team .teamMember figure.member--four .memberPic {background-size:73%;margin-right: -6rem;padding-left: 0;}
+		section.pageContent .team .teamMember figcaption.memberInfo h2 {font-size: 2.7rem;padding-bottom: 1rem;}
+
+	section#connect {margin-top: -10.9rem;}
+}
+@media screen and (min-width: 960px) {
+
+	.siteSearch input {margin-left: 17.5rem;}
+
+    .secondaryTileCopy li { color: #8d7658; font-size: 1.6rem; line-height: 1.5; list-style-type: disc; /*display: inline-block;*//*margin-left: 2rem;*/}
+
+	section.plannersLC .moreInfo {padding-right: 4rem;padding-left: 4rem;padding-bottom:1rem;}
+	section.plannersLC .moreInfo p {font-size: 1.8rem;padding-top: 0.5rem;}
+
+	.amenities.hero  img.hero {background: url("img/about/laConte-about--dt_amenity.jpg");width: 1079px;height: 192px;}
+	.serviceProviders  img.hero {background: url("img/about/laConte-about--dt_amenity.jpg");width: 1079px;height: 192px;}
+	.lodging  img.hero {background: url("img/planner/laConte-planner--dt_lodging.jpg");width: 1079px;height: 192px;}
+	.locations  img.hero {background: url("img/planner/laConte-planner--dt_googleFPO.jpg");width: 100%;height: auto;margin-left: 0.9rem;}
+
+	section#heroMain h2 {font-size: 4.3rem;}
+
+	section#LCfeatures.featureLinks .row .col-lg-4.col-md-4.col-sm-4.col-xs-4 {min-height: 4.5rem;}
+
+	section#LCfeatures.featureLinks .row .col-lg-4.col-md-4.col-sm-4.col-xs-4:nth-child(1),
+	section#LCfeatures.featureLinks .row .col-lg-4.col-md-4.col-sm-4.col-xs-4:nth-child(2),
+	section#LCfeatures.featureLinks .row .col-lg-4.col-md-4.col-sm-4.col-xs-4:nth-child(3),
+	section#LCfeatures.featureLinks .row .col-lg-4.col-md-4.col-sm-4.col-xs-4:nth-child(4),
+	section#LCfeatures.featureLinks .row .col-lg-4.col-md-4.col-sm-4.col-xs-4:nth-child(5),
+	section#LCfeatures.featureLinks .row .col-lg-4.col-md-4.col-sm-4.col-xs-4:nth-child(6) {background-size: 150%;max-width: 14.7rem;}
+
+	section#LCfeatures.featureLinks .row .col-lg-4.col-md-4.col-sm-4.col-xs-4 p {font-size: 1.5rem;padding: 10.5% 0 0 34%;}
+	section#LCfeatures.featureLinks .row .col-lg-4.col-md-4.col-sm-4.col-xs-4 p.doubleLine {padding-top: 0.8rem;padding-left: 33%;}
+	section#LCfeatures.featureLinks .row .col-lg-4.col-md-4.col-sm-4.col-xs-4 p.tripleLine {padding-top: 0.1rem;padding-left: 33%;font-size: 1.4rem;}
+
+	section.pageContent .amenityTypes figure .amenityLogo {padding-bottom: 4rem;}
+
+	section.pageContent .amenityTypes .loadMore, section.pageContent .serviceProviderTypes .loadMore {width: 100%;padding: 0 25rem;}
+
+	section.pageContent .amenityTypes .loadProgress,
+	section.pageContent .serviceProviderTypes .loadProgress {width: 100%;padding: 1rem 20rem;}
+	progress[value] {margin-left: 11rem;}
+	section.pageContent .moreInfo p {padding: 3rem 20rem;}
+
+	section.pageContent .serviceProviderTypes  {background: #fef8e5;width: 49%;}
+
+	section.pageContent .serviceProviderTypes .loadMore {width: 99%;margin: 0 -2rem 0 1rem;padding-top: 3rem;}
+	section.pageContent .serviceProviderTypes .loadProgress {width: 99%;margin: 0 -2rem 0 1rem;}
+
+	section.pageContent .serviceProviderTypes :nth-child(2) {width: 51%;margin-left: -1rem;}
+	section.pageContent .serviceProviderTypes :nth-child(4) {width: 51%;margin-left: -1rem;}
+
+	section.pageContent .booking .bookingForm {width: 50%;background: #fef8e5;min-height: 34.7rem;padding: 2rem 4rem;}
+
+	section.pageContent .bookingForm h2 {background: #e7ddbc;}
+	section.pageContent .bookingForm form {background: #e7ddbc;}
+		section.pageContent .bookingForm form span.calendarIcon {width: 8%;margin-left: 17.5rem;margin-top: -3rem;}
+		section.pageContent .bookingForm input {width: 96%;margin-right: 0;}
+
+	section.pageContent .bookingForm form span.numberOfDays {float: none;display: inline-block;top: 0;left: -0.5rem;}
+	section.pageContent .bookingForm form span.numberOfRooms {float: none;display: inline-block;top: 0;left: 0;}
+
+	section.pageContent .bookingForm form span.numberOfDays select {width: 100%;}
+	section.pageContent .bookingForm form span.numberOfRooms select {width: 100%;}
+
+	section.pageContent .bookingForm form span.numberOfDays label {padding-left: 0;}
+	section.pageContent .bookingForm form span.numberOfRooms label {padding-left: 0;}
+
+	section.pageContent .booking .accommodationsList {background: #fef8e5;width: 49%;margin-left: 0rem;}
+		section.pageContent p.bookingText {color: #8d7658;background: #fef8e5;font-size: 1.4rem;line-height: 1.6;padding: 2rem 4rem 0rem 4rem;}
+		section.pageContent ul.accommodations {background: #fef8e5;padding: 2rem;}/*2rem 2rem 1.7rem*/
+			section.pageContent ul.accommodations li {color: #8d7658;}
+
+	section.pageContent .nearBy h2 {font-size: 3rem;padding-top: 2.5rem;}
+		section.pageContent .attractions blockquote.attractions,
+		section.pageContent .attractions blockquote.restaurants,
+		section.pageContent .attractions blockquote.hotels {
+			padding: 0 2rem;
+			vertical-align: top;
+			min-height: 160px;
+		}
+		section.pageContent .attractions {width: 100%;padding-top: 0;}
+		section.pageContent .attractions blockquote {width: 33%;display: inline-block;}
+		section.pageContent .attractions blockquote.attractions {border-color: #b71239;}
+
+		section.pageContent .restaurants {margin-left: 0;padding: 3.5rem 2.5rem;}
+		section.pageContent .hotels {margin-left: 0;padding: 3.5rem 2.5rem;}
+
+		section.pageContent .team .teamMember {width: 47.8%;float: left;position: relative;margin: 1rem;min-height: 560px; padding-left: 0; padding-right: 0;}
+		section.pageContent .team .teamMember .memberPic {float: right;padding-left: 2rem;max-height: 270px;overflow: hidden;}
+		section.pageContent .team .teamMember .memberPic img {max-height: 90%;}
+		section.pageContent .team .teamMember figure .memberPhone,
+		section.pageContent .team .teamMember figure .memberEmail {width:95%;}
+
+	section.pageContent .team .teamMember figure .memberPhone span.phoneIcon p,
+	section.pageContent .team .teamMember figure .memberEmail span.emailIcon p {padding-right: 6.5rem;padding-bottom: 1rem;}
+
+	.secondaryTile #map_canvas.leConteCenter {height:350px !important;}
+
+	section#connect {margin-top: -9.8rem;}
+}
