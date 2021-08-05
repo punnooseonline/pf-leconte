@@ -190,5 +190,5 @@ $table_prefix = getenv( 'DB_PREFIX' ) !== false ? getenv( 'DB_PREFIX' ) : 'wp_';
 if ( ! defined( 'ABSPATH' ) ) {
 	define( 'ABSPATH', dirname( __FILE__ ) . '/' );
 }
-/** Sets up WordPress vars and included files. */
+/** Sets up WordPress vars and included files. **/
 require_once( ABSPATH . 'wp-settings.php' );
