@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "eee9bea1ef09bf90b62fa55f06b30db6",
+    "content-hash": "d70cc3d3d7a3692a82fb383b7bb486f7",
     "packages": [
         {
             "name": "composer/installers",
@@ -381,6 +381,63 @@
             "time": "2017-01-27T20:40:31+00:00"
         },
         {
+            "name": "satispress/advanced-custom-fields-pro",
+            "version": "5.9.5",
+            "dist": {
+                "type": "zip",
+                "url": "https://dev-o142-satispress.pantheonsite.io/satispress/advanced-custom-fields-pro/5.9.5",
+                "shasum": "aca873557d65874373f1c22dcb815dbe2786ac42"
+            },
+            "require": {
+                "composer/installers": "^1.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": {
+                "name": "Elliot Condon",
+                "homepage": "https://www.advancedcustomfields.com"
+            },
+            "description": "Customize WordPress with powerful, professional and intuitive fields.",
+            "homepage": "https://www.advancedcustomfields.com"
+        },
+        {
+            "name": "satispress/ninja-forms-conditionals",
+            "version": "3.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://dev-o142-satispress.pantheonsite.io/satispress/ninja-forms-conditionals/3.1",
+                "shasum": "af4af7be2ed7d68780228c791be28f0ef3c407e4"
+            },
+            "require": {
+                "composer/installers": "^1.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": {
+                "name": "The WP Ninjas",
+                "homepage": "https://ninjaforms.com"
+            },
+            "description": "Conditional form logic add-on for Ninja Forms.",
+            "homepage": "https://ninjaforms.com/extensions/conditional-logic/"
+        },
+        {
+            "name": "satispress/ninja-forms-style",
+            "version": "3.0.29",
+            "dist": {
+                "type": "zip",
+                "url": "https://dev-o142-satispress.pantheonsite.io/satispress/ninja-forms-style/3.0.29",
+                "shasum": "f774afeca5813d7f92ad15cd76dc0a3c7b342e16"
+            },
+            "require": {
+                "composer/installers": "^1.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": {
+                "name": "The WP Ninjas",
+                "homepage": "http://ninjaforms.com"
+            },
+            "description": "Form layout and styling add-on for Ninja Forms.",
+            "homepage": "https://ninjaforms.com/extensions/layout-styles/"
+        },
+        {
             "name": "symfony/polyfill-ctype",
             "version": "v1.12.0",
             "source": {
@@ -496,6 +553,60 @@
             "time": "2019-09-10T21:37:39+00:00"
         },
         {
+            "name": "wpackagist-plugin/autoptimize",
+            "version": "2.9.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/autoptimize/",
+                "reference": "tags/2.9.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/autoptimize.2.9.0.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/autoptimize/"
+        },
+        {
+            "name": "wpackagist-plugin/better-search-replace",
+            "version": "1.3.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/better-search-replace/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/better-search-replace.zip?timestamp=1618418349"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/better-search-replace/"
+        },
+        {
+            "name": "wpackagist-plugin/classic-editor",
+            "version": "1.6.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/classic-editor/",
+                "reference": "tags/1.6.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/classic-editor.1.6.2.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/classic-editor/"
+        },
+        {
             "name": "wpackagist-plugin/lh-hsts",
             "version": "1.25",
             "source": {
@@ -512,6 +623,42 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/lh-hsts/"
+        },
+        {
+            "name": "wpackagist-plugin/mailgun",
+            "version": "1.7.9",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/mailgun/",
+                "reference": "tags/1.7.9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/mailgun.1.7.9.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/mailgun/"
+        },
+        {
+            "name": "wpackagist-plugin/ninja-forms",
+            "version": "3.5.7",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/ninja-forms/",
+                "reference": "tags/3.5.7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/ninja-forms.3.5.7.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/ninja-forms/"
         },
         {
             "name": "wpackagist-plugin/pantheon-advanced-page-cache",
@@ -532,6 +679,96 @@
             "homepage": "https://wordpress.org/plugins/pantheon-advanced-page-cache/"
         },
         {
+            "name": "wpackagist-plugin/redirection",
+            "version": "5.1.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/redirection/",
+                "reference": "tags/5.1.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/redirection.5.1.3.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/redirection/"
+        },
+        {
+            "name": "wpackagist-plugin/sucuri-scanner",
+            "version": "1.8.27",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/sucuri-scanner/",
+                "reference": "tags/1.8.27"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/sucuri-scanner.1.8.27.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/sucuri-scanner/"
+        },
+        {
+            "name": "wpackagist-plugin/tiny-compress-images",
+            "version": "3.2.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/tiny-compress-images/",
+                "reference": "tags/3.2.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/tiny-compress-images.3.2.1.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/tiny-compress-images/"
+        },
+        {
+            "name": "wpackagist-plugin/updraftplus",
+            "version": "1.16.59",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/updraftplus/",
+                "reference": "tags/1.16.59"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/updraftplus.1.16.59.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/updraftplus/"
+        },
+        {
+            "name": "wpackagist-plugin/wordpress-seo",
+            "version": "16.8",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
+                "reference": "tags/16.8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.16.8.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wordpress-seo/"
+        },
+        {
             "name": "wpackagist-plugin/wp-native-php-sessions",
             "version": "0.9.0",
             "source": {
@@ -548,6 +785,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wp-native-php-sessions/"
+        },
+        {
+            "name": "wpackagist-plugin/wp-pagenavi",
+            "version": "2.94.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-pagenavi/",
+                "reference": "tags/2.94.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-pagenavi.2.94.0.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-pagenavi/"
         },
         {
             "name": "wpackagist-theme/twentynineteen",
@@ -5064,5 +5319,6 @@
     "platform-dev": [],
     "platform-overrides": {
         "php": "7.2"
-    }
+    },
+    "plugin-api-version": "1.1.0"
 }
